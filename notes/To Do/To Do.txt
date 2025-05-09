@@ -1,0 +1,28 @@
+Dialogue system ✔
+	Extra effects ✔
+	Story progression ✔
+	
+Game mechanics
+	Inventory ✔
+	Task Bar
+	Day and Night Cycle
+	
+Cutscenes
+
+
+Main Menu
+	Settings
+		Audio
+		Window size
+		
+Save and Load menu
+
+Save points
+
+Autosave
+		
+Pause Menu
+	
+Music/Audio
+
+Final touches
