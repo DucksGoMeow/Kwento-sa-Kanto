@@ -1,1 +1,0 @@
-draw_sprite(spr_rustyroomkey, 0 ,x, y);

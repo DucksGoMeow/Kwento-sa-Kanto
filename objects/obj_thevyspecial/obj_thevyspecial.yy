@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_theavyspecial",
-    "path":"sprites/spr_theavyspecial/spr_theavyspecial.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

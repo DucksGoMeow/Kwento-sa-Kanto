@@ -1,1 +1,0 @@
-clickedstart = false;

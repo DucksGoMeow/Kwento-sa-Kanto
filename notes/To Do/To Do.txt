@@ -4,8 +4,22 @@ Dialogue system ✔
 	
 Game mechanics
 	Inventory ✔
-	Task Bar
-	Day and Night Cycle
+	Items ✔
+	NPC ✔
+	Giving NPC items ✔
+	Shop System
+	Money
+		Money Gained
+		Money Lost
+	Adding Items to Store
+	Time Cycle
+	Day Completed
+	
+	Music Changes
+	Happy Bar of NPCs
+	Reputation
+	Random Items Wanted
+	Upgrades
 	
 Cutscenes
 
@@ -25,4 +39,6 @@ Pause Menu
 	
 Music/Audio
 
-Final touches
+Final touches (submission)
+
+Endless Mode

@@ -1,1 +1,0 @@
-draw_sprite(spr_tornletter, 0 ,x, y);

@@ -1,1 +1,0 @@
-draw_sprite(spr_journal, 0 ,x, y);

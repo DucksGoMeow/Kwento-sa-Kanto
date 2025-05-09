@@ -1,1 +1,0 @@
-draw_sprite(spr_toolbox, 0 ,x, y);

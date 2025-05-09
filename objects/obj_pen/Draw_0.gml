@@ -1,1 +1,0 @@
-draw_sprite(spr_pen, 0 ,x, y);
