@@ -5,5 +5,10 @@ function scr_topics_extra(topics){
 	TEXT("Hello World"),
 ];
 
+topics[$ "Woof"] = [
+	//TEXT(" ")
+	TEXT("Good Dog, Best Friend"),
+];
+
 
 }

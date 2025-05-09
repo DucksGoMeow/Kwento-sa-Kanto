@@ -11,7 +11,7 @@ global.text_styles = { };
 // default settings!
 // note how it sets every single different type of parameter at least once
 create_style("standard", {
-	color: c_white,
+	color: c_black,
 	font: fnt_text,
 	speed: 0.6,
 	wavy: false

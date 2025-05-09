@@ -11,42 +11,22 @@ max_input_delay = 5; // how many frames to ignore input (helps prevent order iss
 input_delay = max_input_delay;
 
 // Position
-margin = 60 ; // how much space the textbox gets from the edges of the screen
-padding = 10; // how much space things inside the textbox get
+margin = 450; // how much space the textbox gets from the edges of the screen
+padding = 5; // how much space things inside the textbox get
 width = display_get_gui_width() - margin * 2;
 height = 200;
+
 x = (display_get_gui_width() - width) / 2;
-y = display_get_gui_height() - height - 20;
+y = display_get_gui_height() - height - 620;
 
 // Text
 text_font = fnt_text;
-text_color = c_white;
+text_color = c_black;
 text_speed = 0.6;
 text_x = padding;
 text_y = padding * 3;
 text_width = width - padding * 2;
 
-// Option
-option_color = c_white;
-option_x = padding;
-option_y = padding * - 6;
-option_spacing = 50;
-option_selection_indent = 24;
-option_width = 300;
-option_height = 40;
-option_text_x = 10;
-
-// Speaker
-speaker_font = fnt_text;
-speaker_color = c_white;
-speaker_x = padding; // where relative to the textbox do nameplates spawn?
-speaker_y = 0;
-
-// Portrait
-portrait_sprite = -1;
-portrait_side = PORTRAIT_SIDE.LEFT;
-portrait_x = padding; // how far to the side do portraits shift?
-portrait_y = padding;
 
 /// PRIVATE PROPERTIES
 /*** LOOK BUT DO NOT EDIT! ***/

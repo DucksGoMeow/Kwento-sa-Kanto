@@ -19,7 +19,7 @@ gpu_set_texfilter(false);
 current_string = "";
 string_position_x = 0;
 string_position_y = 0;
-string_color = c_white;
+string_color = c_black;
 // The original highlighted color is yellow;
 // However, it's very difficult to see
 // String_highlight_color = c_yellow;
