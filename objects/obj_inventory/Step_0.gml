@@ -1,7 +1,6 @@
- #region Test items
+#region Test items
 var meettest = false
 var meettest2 = false
-
 
 #region test item 1
 if (keyboard_check_pressed(ord("E"))) {
@@ -45,23 +44,21 @@ if (global.itemfound = true) {
 #endregion
 
 #region test item 3
-var meettest3 = false
-if (mouse_check_button_pressed(mb_left)) {
-  with (obj_item3) //for each object 2
- {
-	if (point_in_rectangle(mouse_x, mouse_y, 
-		x - sprite_xoffset, y - sprite_yoffset, 
-		x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
-				show_debug_message("Sprite clicked!");
-				inventoryAdd(id, 3);
-				global.hasitem3 = true
-				var meettest3 = true
-				instance_destroy(obj_item3);
-			}
-		}
-}
+ if (point_in_rectangle(mouse_x, mouse_y, 
+      x - sprite_xoffset, y - sprite_yoffset, 
+      x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
+    if (mouse_check_button_pressed(mb_left)) {
+        show_debug_message("Sprite clicked!");
+        	inventoryAdd(id, 2);
+			global.hasitem3 = true
+			instance_destroy(obj_item3);
+    }
+  }
+	
 
 if (global.itemfound = true) {
 	inventoryRemove(id, 2)
 }
+#endregion
+
 #endregion
