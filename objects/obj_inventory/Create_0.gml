@@ -10,7 +10,6 @@ randomize();
 //inventory[0] = 0;
 
 
-
 //show_debug_message(InventorySearch(id, 1) != -1);
 //inventoryRemove(id, 1);
 //inventoryAdd(id, irandom(1));

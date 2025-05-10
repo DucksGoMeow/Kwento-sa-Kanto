@@ -1,1 +1,1 @@
-//draw_sprite(spr_apron, 0 ,x, y);
+draw_sprite(spr_testitme3, 0 ,x, y);

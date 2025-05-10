@@ -2,6 +2,7 @@
 var meettest = false
 var meettest2 = false
 
+
 #region test item 1
 if (keyboard_check_pressed(ord("E"))) {
   with (obj_player) //for each object 2
@@ -14,7 +15,7 @@ if (keyboard_check_pressed(ord("E"))) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meettest = true //if that toggle variable is true
   {
-    inventoryAdd(id, obj_item);
+    inventoryAdd(id, 1);
 	instance_destroy(obj_item)
 	}
 }
@@ -32,36 +33,35 @@ if (keyboard_check_pressed(ord("E"))) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meettest2 = true //if that toggle variable is true
   {
-    inventoryAdd(id, obj_item2);
+    inventoryAdd(id, 2);
 	global.hasitem = true
 	instance_destroy(obj_item2)
 	}
 }
 
 if (global.itemfound = true) {
-	inventoryRemove(id, obj_item2)
+	inventoryRemove(id, 2)
 }
 #endregion
 
 #region test item 3
-
+var meettest3 = false
 if (mouse_check_button_pressed(mb_left)) {
-  with (obj_player) //for each object 2
-  {
-    if place_meeting(x, y, obj_item3)  //test if it's meeting an object3. if it is,
-      {
-        meetitem3 = true //set the toggle variable to true
-        break; //stop looking, cuz you've already found a meeting pair
+  with (obj_item3) //for each object 2
+ {
+	if (point_in_rectangle(mouse_x, mouse_y, 
+		x - sprite_xoffset, y - sprite_yoffset, 
+		x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
+				show_debug_message("Sprite clicked!");
+				inventoryAdd(id, 3);
+				global.hasitem3 = true
+				var meettest3 = true
+				instance_destroy(obj_item3);
+			}
 		}
-	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
-	if meetitem3 = true //if that toggle variable is true
-  {
-    	inventoryAdd(id, 10);
-		global.hasitem3 = true
-		instance_destroy(obj_item3);
-	}
-		if (global.item3found = true) {
-			inventoryRemove(id, 10)
-	}
+}
+
+if (global.itemfound = true) {
+	inventoryRemove(id, 2)
 }
 #endregion
