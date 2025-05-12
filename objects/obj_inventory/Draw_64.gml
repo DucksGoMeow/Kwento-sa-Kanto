@@ -13,6 +13,3 @@ for (var i = 0; i < INVENTORY_SLOTS; i += 1){
 		}
 	}
 	
-draw_rectangle(x - sprite_xoffset, y - sprite_yoffset, x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height, true)
-
-draw_circle(mouse_x, mouse_y, 5, true)

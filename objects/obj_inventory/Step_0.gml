@@ -14,7 +14,7 @@ if (keyboard_check_pressed(ord("E"))) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meettest = true //if that toggle variable is true
   {
-    inventoryAdd(id, 1);
+    inventoryAdd(id, 0);
 	instance_destroy(obj_item)
 	}
 }
@@ -32,33 +32,13 @@ if (keyboard_check_pressed(ord("E"))) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meettest2 = true //if that toggle variable is true
   {
-    inventoryAdd(id, 2);
+    inventoryAdd(id, 1);
 	global.hasitem = true
 	instance_destroy(obj_item2)
 	}
 }
 
 if (global.itemfound = true) {
-	inventoryRemove(id, 2)
+	inventoryRemove(id, 1)
 }
-#endregion
-
-#region test item 3
- if (point_in_rectangle(mouse_x, mouse_y, 
-      x - sprite_xoffset, y - sprite_yoffset, 
-      x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
-    if (mouse_check_button_pressed(mb_left)) {
-        show_debug_message("Sprite clicked!");
-        	inventoryAdd(id, 2);
-			global.hasitem3 = true
-			instance_destroy(obj_item3);
-    }
-  }
-	
-
-if (global.itemfound = true) {
-	inventoryRemove(id, 2)
-}
-#endregion
-
 #endregion

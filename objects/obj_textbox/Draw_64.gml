@@ -27,6 +27,7 @@ if (speaker_name != "") {
 // Text
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_set_font(text_font);
+draw_set_font(fnt_text);
 draw_set_color(c_black);
 __type(draw_x + text_x + 10, draw_y + text_y, text, text_progress, draw_width);
+draw_set_color(c_white);

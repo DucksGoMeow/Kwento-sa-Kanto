@@ -344,7 +344,7 @@ topics[$ "Said Name"] = [
 
 #endregion
 
-#region Items
+#region Items [obj_itemtest]
 
 topics[$ "Want Item"] = [
 	//TEXT(" ")
@@ -376,7 +376,7 @@ topics[$ "Has Item"] = [
 ];
 #endregion
 
-#region The Avy Special
+#region The Avy Special [obj_theavyspecial]
 
 topics[$ "A Want Item"] = [
 	//TEXT(" ")
@@ -411,6 +411,29 @@ topics[$ "A Has Item"] = [
 	TEXT("What?"),
 	
 ];
+#endregion
+
+#region Payment [obj_paying]
+	topics[$ "Unpayed Wanted Item"] = [
+	//TEXT(" ")
+	TEXT("Hi my name is Jade Harley :D"),
+	TEXT("I want a green amongus and I'll pay 10 for it")
+];
+
+	topics[$ "Unpayed Wants Item"] = [
+	TEXT("If you could please, a 10 money amongus")
+];
+
+	topics[$ "Payed Gave Item"] = [
+	TEXT("Oh thank you!"),
+	TEXT("Your payment as promised")
+];
+
+	topics[$ "Payed Has Item"] = [
+	TEXT("I have no more money to buy this item"),
+	TEXT("But thank you anyway!")
+];
+
 #endregion
 
 }

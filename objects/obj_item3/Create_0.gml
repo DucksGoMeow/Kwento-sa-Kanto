@@ -25,7 +25,3 @@ else{ //otherwise, if it's false, OR if it is undefined (aka we've never registe
   //with the save
   //if the data is false, then we also just override it with false, so that's fine :)
 }
-
-items = ds_list_create();
-
-ds_list_add(items, ["amongus", 10]);
