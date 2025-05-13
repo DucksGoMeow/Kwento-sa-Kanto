@@ -436,4 +436,25 @@ topics[$ "A Has Item"] = [
 
 #endregion
 
+#region Customer Test [obj_customertest]
+topics[$ "Unpayed Wanted Item - Dave"] = [
+	//TEXT(" ")
+	TEXT("Hi my name is Dave Strider"),
+	TEXT("I want that green amongus and I'll pay 10 for it")
+];
+
+	topics[$ "Unpayed Wants Item"] = [
+	TEXT("If you could please, a 10 money amongus")
+];
+
+	topics[$ "Payed Gave Item - Dave"] = [
+	TEXT("Your payment as promised")
+];
+
+	topics[$ "Took To Long - Dave"] = [
+	TEXT("Skill issue.")
+];
+
+#endregion
+
 }

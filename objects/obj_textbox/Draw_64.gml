@@ -11,19 +11,6 @@ var draw_width = text_width;
 
 var finished = text_progress == text_length;
 
-// Speaker
-if (speaker_name != "") {
-	// Expand the nameplate if the name is wider than the default width
-	var w = max(string_width(speaker_name), speaker_width);
-	draw_sprite_stretched(spr_name, 0, x + speaker_x, y + speaker_y - speaker_height / 2, w, speaker_height);
-	
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_center);
-	draw_set_font(speaker_font);
-	draw_set_color(speaker_color);
-	draw_text(x + speaker_x + w / 2, y + speaker_y, speaker_name);
-}
-
 // Text
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

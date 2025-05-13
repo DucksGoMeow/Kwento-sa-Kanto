@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_paying",
+  "%Name":"obj_spawnerdave",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_paying",
+  "name":"obj_spawnerdave",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sample Dialogues",
-    "path":"folders/Objects/Dialogue Stuff/Sample Dialogues.yy",
+    "name":"NPC Stuff",
+    "path":"folders/Objects/NPC Stuff.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_icandowhateveriwant",
-    "path":"sprites/spr_icandowhateveriwant/spr_icandowhateveriwant.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

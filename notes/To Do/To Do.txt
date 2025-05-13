@@ -7,10 +7,10 @@ Game mechanics
 	Items ✔
 	NPC ✔
 	Giving NPC items ✔
-	Shop System
-	Money
-		Money Gained
-		Money Lost
+	Shop System ✔ 
+	Money ✔
+		Money Gained ✔
+		Money Lost ✔
 	Adding Items to Store
 	Time Cycle
 	Day Completed
