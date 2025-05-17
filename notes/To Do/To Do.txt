@@ -11,12 +11,13 @@ Game mechanics
 	Money ✔
 		Money Gained ✔
 		Money Lost ✔
+	NPC Appearing and Disappearing ✔
 	Adding Items to Store
 	Time Cycle
 	Day Completed
 	
 	Music Changes
-	Happy Bar of NPCs
+	Happy Bar of NPCs ✔
 	Reputation
 	Random Items Wanted
 	Upgrades

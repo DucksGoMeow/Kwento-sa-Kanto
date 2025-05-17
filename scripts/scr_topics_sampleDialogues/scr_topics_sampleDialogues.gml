@@ -457,4 +457,42 @@ topics[$ "Unpayed Wanted Item - Dave"] = [
 
 #endregion
 
+#region Options & Reputation [obj_customeroptions]
+
+topics[$ "Love - John"] = [
+	//TEXT(" ")
+	CHOICE("Have you ever been in love?",
+		OPTION("Yes", "Yes - Love"),
+		OPTION("No", "No - Love"))
+];
+
+topics[$ "No - Love"] = [
+	TEXT("Sucks to suck?"),
+	CUSTOM(function() { global.reputation -= 10; })
+];
+
+topics[$ "Yes - Love"] = [
+	CHOICE("… Is it nice? Being in love I mean",
+		OPTION("Yes", "OK - John"),
+		OPTION("No", "OK - John"))
+];
+
+topics[$ "OK - John"] = [
+	TEXT("...I see..."),
+	CUSTOM(function() { global.reputation += 10; }),
+	CUSTOM(function() { instance_destroy(obj_customeroptions); }),
+	CUSTOM(function() { instance_destroy(obj_textbox); })
+	
+];
+
+
+
+topics[$ "Money Test"] = [
+	TEXT("Take My Money"),
+	CUSTOM(function() { global.money += 100; })
+];
+
+
+#endregion
+
 }

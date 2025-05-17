@@ -27,6 +27,16 @@ text_x = padding;
 text_y = padding * 3;
 text_width = width - padding * 2;
 
+// Option
+option_color = c_purple;
+option_x = padding - 550;
+option_y = padding * + 100;
+option_spacing = 50;
+option_selection_indent = 24;
+option_width = 300;
+option_height = 40;
+option_text_x = 10;
+
 
 /// PRIVATE PROPERTIES
 /*** LOOK BUT DO NOT EDIT! ***/
