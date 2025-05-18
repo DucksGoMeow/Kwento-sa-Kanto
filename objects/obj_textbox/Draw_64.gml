@@ -21,11 +21,13 @@ draw_set_color(c_white);
 
 // Options
 if (finished && option_count > 0) {
+	for (var i = 0; i < option_count; i++) {
+		var opt_x = x + option_x + i * 350;
+		var opt_y = y + option_y + 50;
+		
 	draw_set_valign(fa_middle);
 	draw_set_color(option_color);
-	for (var i = 0; i < option_count; i++) {
-		var opt_x = x + option_x + 905;
-		var opt_y = y + option_y - (option_count - i - 1) * 50;
+	
 		
 		// Selected option is indented with an arrow
 		if (i == current_option) {
@@ -36,5 +38,6 @@ if (finished && option_count > 0) {
 		draw_sprite_stretched(spr_option, 0, opt_x, opt_y - option_height / 2, option_width, option_height);
 		draw_text(opt_x + option_text_x, opt_y, options[i].text);
 		draw_set_color(c_white);
+		draw_set_valign(fa_top);
 	}
 }

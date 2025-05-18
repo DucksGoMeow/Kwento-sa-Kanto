@@ -27,7 +27,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_text","order":1,"path":"fonts/fnt_text/fnt_text.yy",},
-    {"name":"TO DO WHEN YOU COME BACK","order":1,"path":"notes/TO DO WHEN YOU COME BACK/TO DO WHEN YOU COME BACK.yy",},
     {"name":"obj_camera","order":6,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_collision","order":1,"path":"objects/obj_collision/obj_collision.yy",},
     {"name":"obj_color","order":3,"path":"objects/obj_color/obj_color.yy",},

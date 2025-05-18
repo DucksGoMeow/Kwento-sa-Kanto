@@ -4,9 +4,9 @@
 global.player_name = "No Name Yet";
 
 // Input
-confirm_key = vk_enter or vk_space; // button to press to go to the next page / select options
-up_key = vk_up; // button to scroll up when options are presented
-down_key = vk_down; // button to scroll down when options are presented
+global.confirm_key = vk_enter or vk_space; // button to press to go to the next page / select options
+global.left_key = vk_left; // button to scroll up when options are presented
+global.right_key = vk_right; // button to scroll down when options are presented
 max_input_delay = 5; // how many frames to ignore input (helps prevent order issues as textbox spawns)
 input_delay = max_input_delay;
 
@@ -28,9 +28,9 @@ text_y = padding * 3;
 text_width = width - padding * 2;
 
 // Option
-option_color = c_purple;
-option_x = padding - 550;
-option_y = padding * + 100;
+option_color = c_black;
+option_x = padding - 25;
+option_y = padding * + 36;
 option_spacing = 50;
 option_selection_indent = 24;
 option_width = 300;

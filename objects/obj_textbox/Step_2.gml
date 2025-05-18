@@ -1,7 +1,7 @@
 // Get input
-var confirm = keyboard_check_pressed(confirm_key);
-var up = keyboard_check_pressed(up_key);
-var down = keyboard_check_pressed(down_key);
+var confirm = keyboard_check_pressed(vk_enter);
+var left = keyboard_check_pressed(vk_left);
+var right = keyboard_check_pressed(vk_right);
 
 // Type out the text
 text_progress = min(text_progress + text_speed, text_length);
@@ -15,7 +15,7 @@ if (text_progress == text_length) {
 	if (option_count > 0) {
 		
 		// Cycle through available options
-		var change = down - up;
+		var change = left - right;
 		if (change != 0) {
 			current_option += change;
 		

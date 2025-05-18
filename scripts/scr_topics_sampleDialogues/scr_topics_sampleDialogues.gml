@@ -469,6 +469,8 @@ topics[$ "Love - John"] = [
 topics[$ "No - Love"] = [
 	TEXT("Sucks to suck?"),
 	CUSTOM(function() { global.reputation -= 10; })
+	CUSTOM(function() { instance_destroy(obj_customeroptions); }),
+	CUSTOM(function() { instance_destroy(obj_textbox); })
 ];
 
 topics[$ "Yes - Love"] = [
@@ -484,14 +486,6 @@ topics[$ "OK - John"] = [
 	CUSTOM(function() { instance_destroy(obj_textbox); })
 	
 ];
-
-
-
-topics[$ "Money Test"] = [
-	TEXT("Take My Money"),
-	CUSTOM(function() { global.money += 100; })
-];
-
 
 #endregion
 
