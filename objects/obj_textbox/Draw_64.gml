@@ -17,7 +17,7 @@ draw_set_valign(fa_top);
 draw_set_font(fnt_text);
 draw_set_color(c_black);
 __type(draw_x + text_x + 10, draw_y + text_y, text, text_progress, draw_width);
-draw_set_color(c_white);
+//draw_set_color(c_white); everything that isnt this text goes back to its orginal colors
 
 // Options
 if (finished && option_count > 0) {
@@ -37,7 +37,8 @@ if (finished && option_count > 0) {
 		
 		draw_sprite_stretched(spr_option, 0, opt_x, opt_y - option_height / 2, option_width, option_height);
 		draw_text(opt_x + option_text_x, opt_y, options[i].text);
-		draw_set_color(c_white);
+		//draw_set_color(c_white);
 		draw_set_valign(fa_top);
+		draw_set_font(fnt_bigger);
 	}
 }

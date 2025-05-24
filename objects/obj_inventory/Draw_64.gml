@@ -3,8 +3,8 @@
 	//12 + (((INVENTORY_SLOTS - 1) div rowLength) + 1) * 69);
 
 for (var i = 0; i < INVENTORY_SLOTS; i += 1){
-	var xx = 1000 + (i mod rowLength) * 69 + 2;
-	var yy = y + (i div rowLength) * 69 + 2;
+	var xx = 450 + (i mod rowLength) * 132;
+	var yy = 840 + (i div rowLength) * 132;
 	draw_sprite(spr_slot, 0, xx, yy);
 	
 		if (inventory[i] != -1){

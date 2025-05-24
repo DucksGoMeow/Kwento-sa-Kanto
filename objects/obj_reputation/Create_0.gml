@@ -1,2 +1,2 @@
 //reputation
-global.reputation = 0;
+global.reputation = 100;

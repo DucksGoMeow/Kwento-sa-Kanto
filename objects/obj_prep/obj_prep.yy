@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_customertest",
+  "%Name":"obj_prep",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,11 +9,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_customertest",
+  "name":"obj_prep",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sample Dialogues",
-    "path":"folders/Objects/Dialogue Stuff/Sample Dialogues.yy",
+    "name":"NPC Stuff",
+    "path":"folders/Objects/NPC Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,

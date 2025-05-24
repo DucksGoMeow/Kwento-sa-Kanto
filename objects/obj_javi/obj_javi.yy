@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_customeroptions",
+  "%Name":"obj_javi",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_customeroptions",
+  "name":"obj_javi",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sample Dialogues",
-    "path":"folders/Objects/Dialogue Stuff/Sample Dialogues.yy",
+    "name":"NPC Stuff",
+    "path":"folders/Objects/NPC Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_nosillyname",
-    "path":"sprites/spr_nosillyname/spr_nosillyname.yy",
+    "name":"spr_javi_n",
+    "path":"sprites/spr_javi_n/spr_javi_n.yy",
   },
   "spriteMaskId":null,
   "visible":true,

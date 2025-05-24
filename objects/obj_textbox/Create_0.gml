@@ -17,7 +17,7 @@ width = display_get_gui_width() - margin * 2;
 height = 200;
 
 x = (display_get_gui_width() - width) / 2;
-y = display_get_gui_height() - height - 620;
+y = display_get_gui_height() - height - 655;
 
 // Text
 text_font = fnt_text;

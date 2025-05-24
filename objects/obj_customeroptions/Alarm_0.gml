@@ -1,0 +1,2 @@
+instance_destroy(obj_customeroptions);
+instance_destroy(obj_textbox);

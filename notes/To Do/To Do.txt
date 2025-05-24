@@ -1,3 +1,5 @@
+For Entire Project:
+
 Dialogue system ✔
 	Extra effects ✔
 	Story progression ✔
@@ -43,3 +45,8 @@ Music/Audio
 Final touches (submission)
 
 Endless Mode
+
+When You Come Back:
+Menus 
+Pause 
+And save files

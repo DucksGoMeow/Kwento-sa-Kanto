@@ -467,10 +467,9 @@ topics[$ "Love - John"] = [
 ];
 
 topics[$ "No - Love"] = [
-	TEXT("Sucks to suck?"),
-	CUSTOM(function() { global.reputation -= 10; })
-	CUSTOM(function() { instance_destroy(obj_customeroptions); }),
-	CUSTOM(function() { instance_destroy(obj_textbox); })
+	CUSTOM(function() { obj_customeroptions.alarm[0] = game_get_speed(gamespeed_fps) * 3;}),
+	TEXT("Sucks to suck?")
+
 ];
 
 topics[$ "Yes - Love"] = [
