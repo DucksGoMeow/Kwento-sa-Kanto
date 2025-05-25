@@ -1,0 +1,1 @@
+draw_sprite(Sprite52, 0, x, y)

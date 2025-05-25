@@ -64,6 +64,7 @@
     {"name":"obj_warpRight","order":2,"path":"objects/obj_warpRight/obj_warpRight.yy",},
     {"name":"obj_white","order":3,"path":"objects/obj_white/obj_white.yy",},
     {"name":"obj_yellow","order":4,"path":"objects/obj_yellow/obj_yellow.yy",},
+    {"name":"testbutton","order":10,"path":"objects/testbutton/testbutton.yy",},
     {"name":"rm_back","order":3,"path":"rooms/rm_back/rm_back.yy",},
     {"name":"rm_ipad","order":7,"path":"rooms/rm_ipad/rm_ipad.yy",},
     {"name":"rm_left","order":1,"path":"rooms/rm_left/rm_left.yy",},
@@ -126,5 +127,6 @@
     {"name":"spr_textbox","order":5,"path":"sprites/spr_textbox/spr_textbox.yy",},
     {"name":"Sprite49","order":8,"path":"sprites/Sprite49/Sprite49.yy",},
     {"name":"Sprite51","order":10,"path":"sprites/Sprite51/Sprite51.yy",},
+    {"name":"Sprite52","order":21,"path":"sprites/Sprite52/Sprite52.yy",},
   ],
 }
