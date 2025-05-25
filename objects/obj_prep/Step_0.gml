@@ -5,6 +5,7 @@ else {
 	davetime = 0;
 	//times up action
 	startDialogue("Took To Long - Dave");
+	
 }
 
 showTime = ceil(davetime);
