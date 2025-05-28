@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_saveroom",
+  "%Name":"scr_savingandloading",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_saveroom",
+  "name":"scr_savingandloading",
   "parent":{
     "name":"Game Stuff",
     "path":"folders/Scripts/Game Stuff.yy",

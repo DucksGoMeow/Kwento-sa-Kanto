@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_inventoryFunction",
   "parent":{
-    "name":"Player Stuff",
-    "path":"folders/Scripts/Player Stuff.yy",
+    "name":"Game Stuff",
+    "path":"folders/Scripts/Game Stuff.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

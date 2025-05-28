@@ -15,8 +15,8 @@ Game mechanics
 		Money Lost ✔
 	NPC Appearing and Disappearing ✔
 	Adding Items to Store
-	Time Cycle
-	Day Completed
+	Time Cycle ✔
+	Day Completed ✔
 	
 	Music Changes
 	Happy Bar of NPCs ✔
@@ -34,20 +34,17 @@ Main Menu
 		
 Save and Load menu
 
-Save points
 
 Autosave
 		
-Pause Menu
+Pause Menu ✔
 	
 Music/Audio
 
 Final touches (submission)
 
-Endless Mode
-
 When You Come Back:
-Menus 
-And save files
-
-finish pause menu layout
+Shop menu
+Do the music
+The settings
+Make everything look nice
