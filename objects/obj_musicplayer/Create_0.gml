@@ -3,7 +3,7 @@ maxpopup = 10;
 maxpopup = namepopup;
 
 global.songname = " ";
-playingmusic = false;
+playingsong = true;
 
 global.playmusic = 1;
 

@@ -10,6 +10,8 @@ else {
 
 showTime = ceil(davetime);
 
+alarm[0] = game_get_speed(gamespeed_fps) * 18;
+
 startDialogue("Unpayed Wanted Item - Dave")
 
 

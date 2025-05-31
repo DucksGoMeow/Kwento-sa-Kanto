@@ -6,8 +6,6 @@ if namepopup > 0 {
 	draw_text(10, 140, string(song_list[index][1]));
 }
 	else {
-		namepopup = 0;
-		playingmusic = false;
 		//times up action
 	}
 
