@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_ThisGuysInLoveWithYouPare",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":215.13287,
+  "name":"snd_ThisGuysInLoveWithYouPare",
+  "parent":{
+    "name":"Background Music",
+    "path":"folders/Sounds/Background Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_ThisGuysInLoveWithYouPare.mp3",
+  "type":0,
+  "volume":1.0,
+}

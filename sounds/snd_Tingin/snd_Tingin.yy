@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_Tingin",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":36.48871,
+  "name":"snd_Tingin",
+  "parent":{
+    "name":"Background Music",
+    "path":"folders/Sounds/Background Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_Tingin.mp3",
+  "type":0,
+  "volume":1.0,
+}

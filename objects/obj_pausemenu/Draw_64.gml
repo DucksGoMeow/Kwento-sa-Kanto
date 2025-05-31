@@ -5,6 +5,4 @@ if (pausegame) {
 	draw_set_color(c_black);
 	draw_text(_center_x, _center_y, "Game Paused");
 	draw_set_font(fnt_text);
-	
-	
 }

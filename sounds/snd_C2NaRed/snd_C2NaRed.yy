@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_C2NaRed",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.0,
+  "name":"snd_C2NaRed",
+  "parent":{
+    "name":"Background Music",
+    "path":"folders/Sounds/Background Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_C2NaRed.mp3",
+  "type":0,
+  "volume":1.0,
+}

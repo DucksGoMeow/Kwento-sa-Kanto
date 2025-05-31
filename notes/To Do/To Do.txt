@@ -32,7 +32,8 @@ Main Menu
 		Audio
 		Window size
 		
-Save and Load menu
+Saving and Loading ✔
+Save and Load Menu
 
 
 Autosave
