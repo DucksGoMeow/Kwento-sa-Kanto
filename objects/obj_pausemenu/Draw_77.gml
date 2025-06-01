@@ -21,10 +21,8 @@ if (point_in_rectangle(mouse_x, mouse_y,
 
 		//deactivate everything other than this instance
 		instance_deactivate_all(true);
-		//except so it shows up
-		instance_activate_object(obj_inventory);
-		instance_activate_object(obj_money);
-		instance_activate_object(obj_reputation);
+		
+		//except these objs so they shows up
 
 		//NOTE:
 		//if you need to pause anything like animating sprites, tiles, rooms background etc
@@ -42,9 +40,17 @@ if (point_in_rectangle(mouse_x, mouse_y,
 		pauseSurfBuffer = buffer_create(resW * resH * 4, buffer_fixed, 1);
 		buffer_get_surface(pauseSurfBuffer, pauseSurf, 0);
 		
+		//pause things
 		show_debug_message("paused game")			
-		instance_create_layer(576, 352, "Instances", testbutton);
-	
+		audio_pause_all();
+		
+		instance_create_layer(0, 0, "Instances_1", obj_pausemenubg);
+		instance_create_layer(1052, 684, "Instances", obj_restartpause);
+		instance_create_layer(601, 684, "Instances", obj_loadpause);
+		instance_create_layer(90, 684, "Instances", obj_resumepause);
+		instance_create_layer(90, 428, "Instances", obj_mainmenupause);
+		instance_create_layer(90, 523, "Instances", obj_creditspause);
+
 	}
 	else { //unpause now
 		pausegame = false;
@@ -52,7 +58,15 @@ if (point_in_rectangle(mouse_x, mouse_y,
 		if (surface_exists(pauseSurf)) surface_free(pauseSurf);
 		if (buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
 		
-		instance_destroy(testbutton);
+		//whatevers here go to obj_resumepause and put it there too
+		audio_resume_all();
+		
+		instance_destroy(obj_restartpause);
+		instance_destroy(obj_loadpause);
+		instance_destroy(obj_resumepause);
+		instance_destroy(obj_mainmenupause);
+		instance_destroy(obj_creditspause);
+		instance_destroy(obj_pausemenubg);
 		}
 	}
 }

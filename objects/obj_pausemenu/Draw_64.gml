@@ -5,4 +5,12 @@ if (pausegame) {
 	draw_set_color(c_black);
 	draw_text(_center_x, _center_y, "Game Paused");
 	draw_set_font(fnt_text);
+	
+	draw_set_color(c_black);
+	draw_set_font(fnt_biggest);
+	draw_text(340, 120, string(global.money));
+	draw_text(340, 250, string(global.reputation));
+	
+	draw_set_font(fnt_bigger);
+	
 }

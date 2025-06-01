@@ -40,7 +40,7 @@ Autosave
 		
 Pause Menu ✔
 	
-Music/Audio
+Music/Audio ✔
 
 Final touches (submission)
 
