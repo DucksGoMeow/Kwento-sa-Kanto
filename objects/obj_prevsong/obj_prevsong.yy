@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_arrowL",
-    "path":"sprites/spr_arrowL/spr_arrowL.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

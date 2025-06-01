@@ -40,5 +40,6 @@ if (finished && option_count > 0) {
 		//draw_set_color(c_white);
 		draw_set_valign(fa_top);
 		draw_set_font(fnt_bigger);
+		draw_set_color(#5E514D);
 	}
 }

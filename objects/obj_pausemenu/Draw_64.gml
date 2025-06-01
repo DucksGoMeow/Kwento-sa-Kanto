@@ -1,16 +1,15 @@
-if (pausegame) {
-	var _center_x = view_xport[0] + view_wport[0] / 2;
-	var _center_y = view_yport[0] + view_hport[0] / 2;
-	draw_set_font(fnt_bigger);
-	draw_set_color(c_black);
-	draw_text(_center_x, _center_y, "Game Paused");
-	draw_set_font(fnt_text);
-	
-	draw_set_color(c_black);
+if (pausegame) {	
+	draw_set_color(#5E514D);
 	draw_set_font(fnt_biggest);
 	draw_text(340, 120, string(global.money));
 	draw_text(340, 250, string(global.reputation));
 	
-	draw_set_font(fnt_bigger);
+	draw_set_font(fnt_text);
+	draw_text(195, 446, "Main Menu");
+	draw_text(233, 544, "Credits");
 	
+	draw_set_font(fnt_big);
+	draw_text(123, 733, "Continue Game");
+	draw_text(685, 733, "Save Menu");
+	draw_text(1140, 733, "Resart Day");
 }
