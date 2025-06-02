@@ -1,3 +1,2 @@
 save_game1();
-global.savefile1 = true;
 global.notsaved_file1 = false;
