@@ -9,8 +9,8 @@
   "name":"obj_restartpause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pause Menu",
-    "path":"folders/Objects/Room Things/Pause Menu.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Room Things/Pause Menu/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
