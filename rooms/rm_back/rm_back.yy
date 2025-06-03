@@ -6,10 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3A1CF4F_1_1_1","path":"rooms/rm_back/rm_back.yy",},
     {"name":"inst_3B94B1A_1_1_1","path":"rooms/rm_back/rm_back.yy",},
-    {"name":"inst_54FF632A_1_1_1","path":"rooms/rm_back/rm_back.yy",},
-    {"name":"inst_494EC53A_1_1_1","path":"rooms/rm_back/rm_back.yy",},
     {"name":"inst_16824FA1","path":"rooms/rm_back/rm_back.yy",},
     {"name":"inst_28B647EB","path":"rooms/rm_back/rm_back.yy",},
     {"name":"inst_7EC8CB8B","path":"rooms/rm_back/rm_back.yy",},
@@ -20,10 +17,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_3A1CF4F_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A1CF4F_1_1_1","objectId":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0625,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_3B94B1A_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B94B1A_1_1_1","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":43.0,},
-        {"$GMRInstance":"v2","%Name":"inst_54FF632A_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54FF632A_1_1_1","objectId":{"name":"obj_money","path":"objects/obj_money/obj_money.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.147541,"x":0.0,"y":79.63934,},
-        {"$GMRInstance":"v2","%Name":"inst_494EC53A_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_494EC53A_1_1_1","objectId":{"name":"obj_reputation","path":"objects/obj_reputation/obj_reputation.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1.0,"y":39.0,},
         {"$GMRInstance":"v2","%Name":"inst_16824FA1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16824FA1","objectId":{"name":"obj_warpLeft","path":"objects/obj_warpLeft/obj_warpLeft.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8.0,"y":840.0,},
         {"$GMRInstance":"v2","%Name":"inst_28B647EB","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28B647EB","objectId":{"name":"obj_warpRight","path":"objects/obj_warpRight/obj_warpRight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1416.0,"y":840.0,},
         {"$GMRInstance":"v2","%Name":"inst_7EC8CB8B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EC8CB8B","objectId":{"name":"obj_pausemenu","path":"objects/obj_pausemenu/obj_pausemenu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":22.0,"y":0.0,},

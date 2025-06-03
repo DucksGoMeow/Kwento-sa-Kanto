@@ -223,8 +223,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_savemenu","path":"rooms/rm_savemenu/rm_savemenu.yy",},},
-    {"roomId":{"name":"rm_naming","path":"rooms/rm_naming/rm_naming.yy",},},
     {"roomId":{"name":"rm_front","path":"rooms/rm_front/rm_front.yy",},},
+    {"roomId":{"name":"rm_naming","path":"rooms/rm_naming/rm_naming.yy",},},
     {"roomId":{"name":"rm_left","path":"rooms/rm_left/rm_left.yy",},},
     {"roomId":{"name":"rm_right","path":"rooms/rm_right/rm_right.yy",},},
     {"roomId":{"name":"rm_back","path":"rooms/rm_back/rm_back.yy",},},
