@@ -5,6 +5,7 @@ function save_game1() {
 	file_text_write_real(_file1, global.money);
 	file_text_write_real(_file1, global.days);
 	file_text_write_real(_file1, global.reputation);
+	file_text_write_real(_file1, global.notsaved_file1);
 	
 	file_text_close(_file1);
 }
@@ -14,13 +15,16 @@ function load_game1() {
 		var _file1 = file_text_open_read("savefile_1.txt");
 		
 		global.money = file_text_read_real(_file1);
-		global.reputation = file_text_read_real(_file1);
 		global.days = file_text_read_real(_file1);
+		global.reputation = file_text_read_real(_file1);
+		global.notsaved_file1 = file_text_read_real(_file1);
 		
 		
 		file_text_close(_file1);
 	}
 }
+
+
 
 //function delete_game1() {
 	//if(file_exists("savefile_1.txt")) {
