@@ -19,18 +19,17 @@ function load_game1() {
 		global.reputation = file_text_read_real(_file1);
 		global.notsaved_file1 = file_text_read_real(_file1);
 		
-		
 		file_text_close(_file1);
 	}
 }
 
 
 
-//function delete_game1() {
-	//if(file_exists("savefile_1.txt")) {
-		//file_delete("savefile_1.txt");
-	//}
-//}
+function delete_game1() {
+	if(file_exists("savefile_1.txt")) {
+		file_delete("savefile_1.txt");
+	}
+}
 #endregion
 
 #region Save Game File 2
@@ -40,7 +39,7 @@ function save_game2() {
 	file_text_write_real(_file2, global.money);
 	file_text_write_real(_file2, global.reputation);
 	file_text_write_real(_file2, global.days);
-	file_text_write_real(_file2, global.storename2);
+	file_text_write_real(_file2, global.notsaved_file2);
 	
 	file_text_close(_file2);
 }
@@ -52,7 +51,7 @@ function load_game2() {
 		global.money = file_text_read_real(_file2);
 		global.reputation = file_text_read_real(_file2);
 		global.days = file_text_read_real(_file2);
-		global.storeame2 = file_text_read_real(_file2);
+		global.notsaved_file2 = file_text_read_real(_file2);
 		
 		file_text_close(_file2);
 	}
@@ -72,7 +71,7 @@ function save_game3() {
 	file_text_write_real(_file3, global.money);
 	file_text_write_real(_file3, global.reputation);
 	file_text_write_real(_file3, global.days);
-	file_text_write_real(_file3, global.storename3);
+	file_text_write_real(_file3, global.notsaved_file3);
 	
 	file_text_close(_file3);
 }
@@ -84,7 +83,7 @@ function load_game3() {
 		global.money = file_text_read_real(_file3);
 		global.reputation = file_text_read_real(_file3);
 		global.days = file_text_read_real(_file3);
-		global.storeame3 = file_text_read_real(_file3);
+		global.notsaved_file3 = file_text_read_real(_file3);
 		
 		file_text_close(_file3);
 	}

@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deletegameconfermation_file1",
+  "%Name":"obj_deletegame_file2",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_deletegameconfermation_file1",
+  "name":"obj_deletegame_file2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Room Things/Save Menu/Buttons.yy",
+    "name":"Delete Game",
+    "path":"folders/Objects/Room Things/Save Menu/Buttons/Delete Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_deleteconfirmmessage",
-    "path":"sprites/spr_deleteconfirmmessage/spr_deleteconfirmmessage.yy",
+    "name":"spr_savegamebutton2",
+    "path":"sprites/spr_savegamebutton2/spr_savegamebutton2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

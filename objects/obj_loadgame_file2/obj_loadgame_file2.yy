@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deletegame_file1",
+  "%Name":"obj_loadgame_file2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_deletegame_file1",
+  "name":"obj_loadgame_file2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Delete Game",
-    "path":"folders/Objects/Room Things/Save Menu/Buttons/Delete Game.yy",
+    "name":"Load Game",
+    "path":"folders/Objects/Room Things/Save Menu/Buttons/Load Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_savegamebutton2",
-    "path":"sprites/spr_savegamebutton2/spr_savegamebutton2.yy",
+    "name":"spr_savegamebutton",
+    "path":"sprites/spr_savegamebutton/spr_savegamebutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

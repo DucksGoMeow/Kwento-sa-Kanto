@@ -9,3 +9,4 @@ global.notsaved_file2 = true;
 global.notsaved_file3 = true;
 
 global.days = 0;
+global.days_file1 = 0;

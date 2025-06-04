@@ -9,8 +9,8 @@
   "name":"obj_loadgame_file1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Room Things/Save Menu/Buttons.yy",
+    "name":"Load Game",
+    "path":"folders/Objects/Room Things/Save Menu/Buttons/Load Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

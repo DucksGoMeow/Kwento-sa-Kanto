@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"test",
+  "%Name":"obj_loadgame",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"test",
+  "name":"obj_loadgame",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

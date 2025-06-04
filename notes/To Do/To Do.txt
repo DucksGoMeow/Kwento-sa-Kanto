@@ -33,10 +33,7 @@ Main Menu
 		Window size
 		
 Saving and Loading ✔
-Save and Load Menu
-
-
-Autosave
+Save and Load Menu ✔
 		
 Pause Menu ✔
 	
@@ -45,9 +42,7 @@ Music/Audio ✔
 Final touches (submission)
 
 When You Come Back:
-Shop menu
+Shop menu!!!
 Do the music
 The settings
 Make everything look nice
-
-figure out the save file

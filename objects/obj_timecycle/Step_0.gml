@@ -18,6 +18,10 @@ if (hours >= 6.55) {
 	}
 }
 
+if (!global.gamesaved1) {
+	global.days_file1 += global.days;
+}
+
 if (global.days == 1) or (global.days == 3) or (global.days == 5) or (global.days == 7) {
         instance_create_layer(704, 544, "customers", obj_item)
     
