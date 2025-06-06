@@ -36,7 +36,7 @@ if (!global.notsaved_file1) {
 	draw_text(205, 350, "Day Number");
 	
 	draw_set_font(fnt_bigy);
-	draw_text(250, 370, string(global.days));
+	draw_text(250, 370, string(global.days_file1));
 	
 	draw_set_font(fnt_bigger);
 	instance_create_layer(143, 652, "Instances", obj_loadgame_file1);
@@ -51,7 +51,7 @@ if (!global.notsaved_file2) {
 	draw_text(665, 350, "Day Number");
 	
 	draw_set_font(fnt_bigy);
-	draw_text(720, 370, string(global.days));
+	draw_text(720, 370, string(global.days_file2));
 
 	instance_create_layer(600.5, 652, "Instances", obj_loadgame_file2);
 	instance_create_layer(600.5, 761, "Instances", obj_deletegame_file2);
@@ -65,7 +65,7 @@ if (!global.notsaved_file3) {
 	draw_text(1123, 350, "Day Number");
 	
 	draw_set_font(fnt_bigy);
-	draw_text(1180, 370, string(global.days));
+	draw_text(1180, 370, string(global.days_file3));
 
 	instance_create_layer(1057, 652, "Instances", obj_loadgame_file3);
 	instance_create_layer(1057, 761, "Instances", obj_deletegame_file3);

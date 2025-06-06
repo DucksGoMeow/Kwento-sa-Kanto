@@ -10,3 +10,5 @@ global.notsaved_file3 = true;
 
 global.days = 0;
 global.days_file1 = 0;
+global.days_file2 = 0;
+global.days_file3 = 0;

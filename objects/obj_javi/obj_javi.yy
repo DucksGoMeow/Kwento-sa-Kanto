@@ -8,8 +8,8 @@
   "name":"obj_javi",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPC Stuff",
-    "path":"folders/Objects/NPC Stuff.yy",
+    "name":"VIPs",
+    "path":"folders/Objects/NPC Stuff/VIPs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

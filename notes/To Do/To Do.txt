@@ -20,7 +20,7 @@ Game mechanics
 	
 	Music Changes
 	Happy Bar of NPCs ✔
-	Reputation
+	Reputation ✔
 	Random Items Wanted
 	Upgrades
 	
@@ -46,3 +46,5 @@ Shop menu!!!
 Do the music
 The settings
 Make everything look nice
+
+finish the delete file in the save menu l8r

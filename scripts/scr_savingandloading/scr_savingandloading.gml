@@ -4,6 +4,7 @@ function save_game1() {
 	
 	file_text_write_real(_file1, global.money);
 	file_text_write_real(_file1, global.days);
+	file_text_write_real(_file1, global.days);
 	file_text_write_real(_file1, global.reputation);
 	file_text_write_real(_file1, global.notsaved_file1);
 	
@@ -16,6 +17,7 @@ function load_game1() {
 		
 		global.money = file_text_read_real(_file1);
 		global.days = file_text_read_real(_file1);
+		global.days_file1 = file_text_read_real(_file1);
 		global.reputation = file_text_read_real(_file1);
 		global.notsaved_file1 = file_text_read_real(_file1);
 		
@@ -39,6 +41,7 @@ function save_game2() {
 	file_text_write_real(_file2, global.money);
 	file_text_write_real(_file2, global.reputation);
 	file_text_write_real(_file2, global.days);
+	file_text_write_real(_file2, global.days);
 	file_text_write_real(_file2, global.notsaved_file2);
 	
 	file_text_close(_file2);
@@ -51,6 +54,7 @@ function load_game2() {
 		global.money = file_text_read_real(_file2);
 		global.reputation = file_text_read_real(_file2);
 		global.days = file_text_read_real(_file2);
+		global.days_file2 = file_text_read_real(_file2);
 		global.notsaved_file2 = file_text_read_real(_file2);
 		
 		file_text_close(_file2);
@@ -71,6 +75,7 @@ function save_game3() {
 	file_text_write_real(_file3, global.money);
 	file_text_write_real(_file3, global.reputation);
 	file_text_write_real(_file3, global.days);
+	file_text_write_real(_file3, global.days);
 	file_text_write_real(_file3, global.notsaved_file3);
 	
 	file_text_close(_file3);
@@ -83,6 +88,7 @@ function load_game3() {
 		global.money = file_text_read_real(_file3);
 		global.reputation = file_text_read_real(_file3);
 		global.days = file_text_read_real(_file3);
+		global.days_file3 = file_text_read_real(_file3);
 		global.notsaved_file3 = file_text_read_real(_file3);
 		
 		file_text_close(_file3);

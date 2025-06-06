@@ -8,8 +8,8 @@
   "name":"obj_loadgame",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Save Menu",
+    "path":"folders/Objects/Room Things/Save Menu.yy",
   },
   "parentObjectId":null,
   "persistent":true,
