@@ -3,6 +3,9 @@ if (point_in_rectangle(mouse_x, mouse_y,
       x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
     if (mouse_check_button_pressed(mb_left)) {
 	instance_destroy(obj_deletegameconfermation);
+	instance_destroy(obj_deletebutton_file1);
+	instance_destroy(obj_deletebutton_file2);
+	instance_destroy(obj_deletebutton_file3);
 	instance_destroy(obj_cancel);
   }
 }

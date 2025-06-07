@@ -1,0 +1,1 @@
+global.delete_javi = false;

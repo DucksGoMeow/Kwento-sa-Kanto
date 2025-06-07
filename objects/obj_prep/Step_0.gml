@@ -1,8 +1,8 @@
-if davetime > 0 {
-	davetime = davetime - delta_time/1000000
+if kattime > 0 {
+	kattime = kattime - delta_time/1000000
 }
 else {
-	davetime = 0;
+	kattime = 0;
 	//times up action
 	startDialogue("Took To Long - Dave");
 	

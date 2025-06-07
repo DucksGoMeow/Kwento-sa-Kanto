@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button3",
-    "path":"sprites/spr_button3/spr_button3.yy",
+    "name":"spr_deletegamebutton",
+    "path":"sprites/spr_deletegamebutton/spr_deletegamebutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

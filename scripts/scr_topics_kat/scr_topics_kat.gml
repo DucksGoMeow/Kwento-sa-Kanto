@@ -1,4 +1,4 @@
-function scr_topics_main(topics){
+function scr_topics_kat(topics){
 
 	topics[$ "Example"] = [
 	//TEXT(" ")

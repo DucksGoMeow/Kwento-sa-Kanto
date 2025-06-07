@@ -1,5 +1,7 @@
 if (global.hours <= 1.90) {
+	
 	draw_sprite(spr_front_sunrise, 0, 0, 0);
+
 }
 
 #region Sunrise to Morning

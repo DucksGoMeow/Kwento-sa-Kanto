@@ -29,6 +29,11 @@ create_style("red", {
 	color: c_red,
 });
 
+create_style("grey", {
+	color: #999999,
+});
+
+
 //create_style("playername", {
 	//playername: global.playersname,
 //});

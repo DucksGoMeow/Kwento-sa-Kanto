@@ -1,8 +1,6 @@
-
-
-davetime = 15.0;
+kattime = 15.0;
 maxTime = 15.0;
-showTime = davetime;
+showTime = kattime;
 //150.0
 
 firsttime = false;

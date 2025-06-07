@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_topics_main",
+  "%Name":"scr_topics_andoy",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_topics_main",
+  "name":"scr_topics_andoy",
   "parent":{
     "name":"Dialogues",
     "path":"folders/Scripts/Dialogue Stuff/Dialogues.yy",

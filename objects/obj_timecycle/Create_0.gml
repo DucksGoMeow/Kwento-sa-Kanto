@@ -1,9 +1,9 @@
-global.seconds = 0;
-global.minutes = 0;
+seconds = 0;
+minutes = 0;
 global.hours = 0;
 
 global.days = 1;
-global.months = 1;
+months = 1;
 years = 1;
 
 time_increment = 0.6 //seconds per step
