@@ -35,11 +35,11 @@ if (finished && option_count > 0) {
 			draw_sprite(spr_arrow, 0, opt_x - 55, opt_y - 19);
 		}
 		
-		draw_sprite_stretched(spr_option, 0, opt_x, opt_y - option_height / 2, option_width, option_height);
+		draw_sprite_stretched(spr_option, 0, opt_x, opt_y - option_height /2, option_width, option_height);
 		draw_text(opt_x + option_text_x, opt_y, options[i].text);
-		//draw_set_color(c_white);
-		draw_set_valign(fa_top);
-		draw_set_font(fnt_bigger);
-		draw_set_color(#5E514D);
 	}
 }
+
+draw_set_valign(fa_top);
+draw_set_font(fnt_bigger);
+draw_set_color(#5E514D);

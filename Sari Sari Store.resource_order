@@ -135,7 +135,6 @@
     {"name":"scr_topics_daniel","order":8,"path":"scripts/scr_topics_daniel/scr_topics_daniel.yy",},
     {"name":"scr_topics_extra","order":4,"path":"scripts/scr_topics_extra/scr_topics_extra.yy",},
     {"name":"scr_topics_javi","order":5,"path":"scripts/scr_topics_javi/scr_topics_javi.yy",},
-    {"name":"scr_topics_kat","order":6,"path":"scripts/scr_topics_kat/scr_topics_kat.yy",},
     {"name":"scr_topics","order":19,"path":"scripts/scr_topics/scr_topics.yy",},
     {"name":"scr_typing","order":20,"path":"scripts/scr_typing/scr_typing.yy",},
     {"name":"snd_C2NaRed","order":2,"path":"sounds/snd_C2NaRed/snd_C2NaRed.yy",},

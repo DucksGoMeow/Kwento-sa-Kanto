@@ -34,7 +34,7 @@ option_y = padding * + 36;
 option_spacing = 50;
 option_selection_indent = 24;
 option_width = 300;
-option_height = 40;
+option_height = 50;
 option_text_x = 10;
 
 
