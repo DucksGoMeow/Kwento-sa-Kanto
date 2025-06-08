@@ -1,15 +1,24 @@
 //background
 //draw_sprite(spr_backgrounddialogue, 0, 1, 1)
 
-// Draw the box
-draw_sprite_stretched(spr_textbox, 0, x, y, width, height);
-
 // Set starting positions
 var draw_x = x;
 var draw_y = y;
 var draw_width = text_width;
 
 var finished = text_progress == text_length;
+
+// Portrait
+if (sprite_exists(portrait_sprite)) {
+	
+	var subimg = 0;
+	subimg = (text_progress / text_speed) * (sprite_get_speed(portrait_sprite) / game_get_speed(gamespeed_fps));
+		
+	draw_sprite(portrait_sprite, subimg, 508, 224);
+}
+
+// Draw the box
+draw_sprite_stretched(spr_textbox, 0, x, y, width, height);
 
 // Text
 draw_set_halign(fa_left);

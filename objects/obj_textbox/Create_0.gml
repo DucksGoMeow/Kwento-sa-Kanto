@@ -37,6 +37,11 @@ option_width = 300;
 option_height = 50;
 option_text_x = 10;
 
+// Portrait
+portrait_sprite = -1;
+portrait_x = 508; // how far to the side do portraits shift?
+portrait_y = 224;
+
 
 /// PRIVATE PROPERTIES
 /*** LOOK BUT DO NOT EDIT! ***/

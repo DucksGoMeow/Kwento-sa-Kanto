@@ -5,6 +5,7 @@
 #macro SPEAKER new SpeakerAction
 #macro PORTRAIT new PortraitAction
 #macro CUSTOM new CustomAction
+#macro CUSTOMTEXT new CustometextAction
 
 function DialogueAction() constructor {
 	act = function() { };
@@ -63,34 +64,22 @@ function OptionAction(_text, _topic): DialogueAction() constructor {
 // Right - swap to the right side
 
 // Set the speaker, optionally its portrait and side the portrait is on
-function SpeakerAction(_name, _sprite = undefined, _side = PORTRAIT_SIDE.SAME): DialogueAction() constructor {
-	name = _name;
+function SpeakerAction(_sprite = undefined): DialogueAction() constructor {
 	sprite = _sprite;
-	side = _side;
 
 	act = function(textbox) {
-		textbox.speaker_name = name;
-
 		if (!is_undefined(sprite))
 			textbox.portrait_sprite = sprite;
-
-		if (side != PORTRAIT_SIDE.SAME)
-			textbox.portrait_side = side;
-
 		return true;
 	}
 }
 
 // Set the current speaker portrait
-function PortraitAction(_sprite, _side = PORTRAIT_SIDE.SAME): DialogueAction() constructor {
+function PortraitAction(_sprite): DialogueAction() constructor {
 	sprite = _sprite;
-	side = _side;
 
 	act = function(textbox) {
 		textbox.portrait_sprite = sprite;
-		if (side != PORTRAIT_SIDE.SAME)
-			textbox.portrait_side = side;
-		return true;
 	}
 }
 
@@ -101,6 +90,18 @@ function CustomAction(_action): DialogueAction() constructor {
 	action = _action;
 	
 	act = function(textbox) {
+		return action(textbox);
+		
+	}
+	
+}
+
+function CustometextAction(_text, _action) : DialogueAction() constructor {
+	text = _text;
+	action = _action;
+
+	act = function(textbox) {
+		textbox.setText(text);
 		return action(textbox);
 	}
 }
