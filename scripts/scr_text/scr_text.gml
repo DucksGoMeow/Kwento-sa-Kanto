@@ -3,7 +3,7 @@
 // @param topic - What topic the dialogue box should use
 // @param onClose - optionally pass in a function that runs when the textbox closes
 function startDialogue(topic, onClose = undefined) {
-	var inst = instance_create_depth(x, y, 100, obj_textbox);
+	var inst = instance_create_depth(x, y, 200, obj_textbox);
 	inst.onClose = onClose;
 	inst.setTopic(topic);
 }

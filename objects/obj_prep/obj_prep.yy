@@ -12,8 +12,8 @@
   "name":"obj_prep",
   "overriddenProperties":[],
   "parent":{
-    "name":"VIPs",
-    "path":"folders/Objects/NPC Stuff/VIPs.yy",
+    "name":"Extras",
+    "path":"folders/Objects/NPC Stuff/Extras.yy",
   },
   "parentObjectId":null,
   "persistent":false,

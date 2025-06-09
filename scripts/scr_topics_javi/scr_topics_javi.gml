@@ -5,7 +5,7 @@ topics[$ "... - Javi"] = [
 ];
 
 topics[$ "Wrong item - Javi"] = [
-
+	SPEAKER(spr_javi_b),
 	TEXT("Javi: That’s uh..."),
 	TEXT("Javi: Sorry nevermind I’ll go")
 ];
