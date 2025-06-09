@@ -1,0 +1,1 @@
+draw_sprite(spr_arrowL, 0, 8, 840)

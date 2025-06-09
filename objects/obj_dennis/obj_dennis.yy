@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_uibase",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dennis",
+  "eventList":[],
   "managed":true,
-  "name":"obj_uibase",
+  "name":"obj_dennis",
   "overriddenProperties":[],
   "parent":{
-    "name":"Room Things",
-    "path":"folders/Objects/Room Things.yy",
+    "name":"VIPs",
+    "path":"folders/Objects/NPC Stuff/VIPs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_uibase",
-    "path":"sprites/spr_uibase/spr_uibase.yy",
+    "name":"spr_dennis_g",
+    "path":"sprites/spr_dennis_g/spr_dennis_g.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -11,6 +11,7 @@ var finished = text_progress == text_length;
 // Portrait
 if (sprite_exists(portrait_sprite)) {
 	
+	if (!finished)
 	var subimg = 0;
 	subimg = (text_progress / text_speed) * (sprite_get_speed(portrait_sprite) / game_get_speed(gamespeed_fps));
 		
