@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Side",
-    "path":"folders/Sprites/NPCs/Side.yy",
+    "name":"Marisa",
+    "path":"folders/Sprites/NPCs/Side/Marisa.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

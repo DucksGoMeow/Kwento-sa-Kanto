@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Side",
-    "path":"folders/Sprites/NPCs/Side.yy",
+    "name":"Oki",
+    "path":"folders/Sprites/NPCs/Side/Oki.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

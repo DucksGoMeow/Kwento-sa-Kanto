@@ -36,7 +36,7 @@ topics[$ "Wrong item - S1 Javi"] = [
 ];
 
 topics[$ "Correct Item - S1 Javi"] = [
-	TEXT("???: Oh...right yea thanks")
+	CUSTOMTEXT("???: Oh...right yea thanks", function() { obj_javi.startjavi = true}),
 ];
 
 #endregion
@@ -119,7 +119,7 @@ topics[$ "A lot - S2 Javi"] = [
 	SPEAKER(spr_javi_g),
 	CHOICE("Javi: I guess… but it's kinda boring",
 		OPTION("Whys that?", "Why - S2 Javi"),
-		OPTION("Is it because of ranked?", "Ranked - S2 Javi"))
+		OPTION("Cause it's ranked?", "Ranked - S2 Javi"))
 ];
 
 topics[$ "Why - S2 Javi"] = [
@@ -185,6 +185,7 @@ topics[$ "Bad - S3 Javi"] = [
 	TEXT("Javi: no laughing or raging with teammates."),
 	TEXT("Javi: It's just me..."),
 	TEXT("Javi: by myself..."),
+	SPEAKER(spr_javi_s2),
 	TEXT("Javi: Lately, it feels like I'm solo queued in real life too..."),
 	SPEAKER(spr_javi_bl2),
 	TEXT("Javi: Sorry"),
@@ -218,9 +219,8 @@ topics[$ "Are you ok - S4 Javi"] = [
 	TEXT("Javi: I'm too weak for the jocks."),
 	TEXT("Javi: I'm too quiet for the extroverts."),
 	TEXT("Javi: I'm too weird for anyone."),
-    SPEAKER(spr_javi_b),
+    SPEAKER(spr_javi_s2),
 	TEXT("Javi: ..."),
-	SPEAKER(spr_javi_s),
 	TEXT("Javi: I hate myself"),
 	TEXT("Javi: I just..."),
 	TEXT("Javi: I'm just so lonely"),
@@ -229,7 +229,6 @@ topics[$ "Are you ok - S4 Javi"] = [
 	TEXT("Javi: and my family dosen't really speak to me..."),
 	TEXT("Javi:  I just wish I had a better time talking to people."),
 	TEXT("Javi:  I don't want to be alone anymore."),
-	TEXT("Javi:  I don't want to wait anymore."),
 	TEXT("Javi:  I don't want to wait anymore."),
 	CHOICE("Javi: Do you have any advice for someone like me?",
 		OPTION("Take it slow", "Slow - S4 Javi"),
@@ -247,9 +246,8 @@ topics[$ "Talk - S4 Javi"] = [
 	TEXT("Javi: I'm too weak for the jocks."),
 	TEXT("Javi: I'm too quiet for the extroverts."),
 	TEXT("Javi: I'm too weird for anyone."),
-    SPEAKER(spr_javi_b),
+    SPEAKER(spr_javi_s2),
 	TEXT("Javi: ..."),
-    SPEAKER(spr_javi_s),
 	TEXT("Javi: I hate myself"),
 	TEXT("Javi: I just..."),
 	TEXT("Javi: I'm just so lonely"),
@@ -277,7 +275,7 @@ topics[$ "Slow - S4 Javi"] = [
 topics[$ "Go for it - S4 Javi"] = [
 	TEXT("Go outside your comfort zone, reach out,"),
 	TEXT("it doesn't have to be everyone, but try to reach out to one person."),
-           SPEAKER(spr_javi_bl),
+    SPEAKER(spr_javi_bl),
 	TEXT("Javi: That's a good way to look at it"),
 	TEXT("Javi: I'll try that next time I'm on campus."),
 ];
@@ -346,6 +344,7 @@ topics[$ "Bad Howd it go - S5 Javi"] = [
 	TEXT("Javi: I took it slow..."),
 	TEXT("Javi: like you said, but..."),
 	TEXT("Javi: I took too long"),
+	SPEAKER(spr_javi_s2),
 	TEXT("Javi: I got left behind because I was too slow"),
 	TEXT("Javi: I- I'm sorry I’m wasting your time."),
 	TEXT("Javi: I’m sorry I wont show up again. I’m so sorry."),
@@ -356,6 +355,7 @@ topics[$ "Bad Alright - S5 Javi"] = [
 	CUSTOMTEXT("Javi: I took it slow...", function() { obj_javi.BEJavi = true}),
 	TEXT("Javi: like you said, but..."),
 	TEXT("Javi: I took too long"),
+	SPEAKER(spr_javi_s2),
 	TEXT("Javi: I got left behind because I was too slow"),
 	TEXT("Javi: I- I'm sorry I’m wasting your time."),
 	TEXT("Javi: I’m sorry I wont show up again. I’m so sorry."),
@@ -388,7 +388,7 @@ topics[$ "Thoughtful - S6 Javi"] = [
     SPEAKER(spr_javi_bl2),
 	TEXT("Javi: would a necklace be good?"),
 	TEXT("Mhm..."),
-	TEXT("wait why do you ask?"),
+	TEXT("Wait why do you ask?"),
 	TEXT("Is it for someone?"),
     SPEAKER(spr_javi_bl),
 	TEXT("Javi: !!!"),
@@ -405,7 +405,7 @@ topics[$ "Useful - S6 Javi"] = [
     SPEAKER(spr_javi_bl2),
 	TEXT("Javi: would a necklace be good?"),
 	TEXT("Mhm..."),
-	TEXT("wait why do you ask?"),
+	TEXT("Wait why do you ask?"),
 	TEXT("Is it for someone?"),
     SPEAKER(spr_javi_bl),
 	TEXT("Javi: !!!"),
@@ -434,10 +434,10 @@ topics[$ "Start - S7 Javi"] = [
 topics[$ "Slow - S7 Javi"] = [
 	TEXT("Take it slow"),
 	TEXT("Throw them into some casual before ranked matches so they get a hands on approach"),
-           SPEAKER(spr_javi_bl2),
+    SPEAKER(spr_javi_bl2),
 	TEXT("Javi: Ok...uhm..."),
 	TEXT("Javi: If I were to... do more... physical activities..."),
-           SPEAKER(spr_javi_bl),
+    SPEAKER(spr_javi_bl),
 	CHOICE("Javi: do you have any advice for that?",
 		OPTION("Always Stretch", "Stretch - S7 Javi"),
         OPTION("Have water", "Water - S7 Javi")),
@@ -446,10 +446,10 @@ topics[$ "Slow - S7 Javi"] = [
 topics[$ "Tutorials - S7 Javi"] = [
 	TEXT("Find some videos online of how to play the game,"),
 	TEXT("so they get a headstart on what to do"),
-           SPEAKER(spr_javi_bl2),
+    SPEAKER(spr_javi_bl2),
 	TEXT("Javi: Ok...uhm..."),
 	TEXT("Javi: If I were to... do more... physical activities..."),
-           SPEAKER(spr_javi_bl),
+    SPEAKER(spr_javi_bl),
 	CHOICE("Javi: do you have any advice for that?",
 		OPTION("Always Stretch", "Stretch - S7 Javi"),
         OPTION("Have water", "Water - S7 Javi")),
@@ -471,14 +471,14 @@ topics[$ "Water - S7 Javi"] = [
 
 topics[$ "Why - S7 Javi"] = [
 	TEXT("What's with these sudden questions?"),
-           SPEAKER(spr_javi_bl),
+    SPEAKER(spr_javi_bl),
 	TEXT("Javi: Uh, uh,"),
 	TEXT("Javi: No reason! Bye!"),
 ];
 
 topics[$ "Working out - S7 Javi"] = [
 	TEXT("Are you planning on working out?"),
-           SPEAKER(spr_javi_h),
+    SPEAKER(spr_javi_h),
 	TEXT("Javi: Maybe I am,"),
 	TEXT("Javi: Maybe I’m not, seeya!"),
 ];
@@ -554,7 +554,7 @@ topics[$ "Chismis - S8 Javi"] = [
 	TEXT("Javi: and I don't get the feeling they're faking it or whatever"),
 	TEXT("Javi: they're so..."),
 	TEXT("Javi: genuine...so nice..."),
-           SPEAKER(spr_javi_bl),
+    SPEAKER(spr_javi_bl),
 	CHOICE("Javi:  I don't know how to go about this. Do you have any advice?",
 		OPTION("Be Subtle", "Subtle - S8 Javi"),
         OPTION("Be proud", "Proud - S8 Javi")),
@@ -585,12 +585,11 @@ topics[$ "Start - S9 Javi"] = [
 
 topics[$ "Man - S9 Javi"] = [
 	CUSTOMTEXT("Javi: Yeah...this is Dennis, He’s the one I’ve been talking about", function() { obj_javi.GEJavi = true}),
-	CUSTOMTEXT("Denis: Wait... this is the store?! The one that helped you!?", function() { obj_javi.S9Javi = false}),
-	TEXT("Denis: Wait... this is the store?! The one that helped you!?"),
+	CUSTOMTEXT("Dennis: Wait... this is the store?! The one that helped you!?", function() { obj_javi.S9Javi = false}),
 	TEXT("Javi: Yep"),
 	TEXT("Javi: I really can't thank you enough for helping, I’ve never felt so...free and happy"),
-	TEXT("Denis: I’ve really been enjoying gaming with him, and even though he doesn't have to"),
-	TEXT("Denis: he still puts in the effort to play basketball with me!"),
+	TEXT("Dennis: I’ve really been enjoying gaming with him, and even though he doesn't have to"),
+	TEXT("Dennis: He still puts in the effort to play basketball with me!"),
 	CHOICE("Javi: And that’s thanks to you, so thank you for that.",
 		OPTION("Don’t thank me", "Don't - S9 Javi"),
         OPTION("You're welcome", "Welcome - S9 Javi")),
@@ -599,11 +598,11 @@ topics[$ "Man - S9 Javi"] = [
 topics[$ "Duo - S9 Javi"] = [
 	TEXT("Looks like you found your duo!"),
 	CUSTOMTEXT("Javi: Yeah...this is Dennis, He’s the one I’ve been talking about", function() { obj_javi.GEJavi = true}),
-	CUSTOMTEXT("Denis: Wait... this is the store?! The one that helped you!?", function() { obj_javi.S9Javi = false}),
+	CUSTOMTEXT("Dennis: Wait... this is the store?! The one that helped you!?", function() { obj_javi.S9Javi = false}),
 	TEXT("Javi: Yep"),
 	TEXT("Javi: I really can't thank you enough for helping, I’ve never felt so...free and happy"),
-	TEXT("Denis: I’ve really been enjoying gaming with him, and even though he doesn't have to"),
-	TEXT("Denis: he still puts in the effort to play basketball with me!"),
+	TEXT("Dennis: I’ve really been enjoying gaming with him, and even though he doesn't have to"),
+	TEXT("Dennis: He still puts in the effort to play basketball with me!"),
 	CHOICE("Javi: And that’s thanks to you, so thank you for that.",
 		OPTION("Don’t thank me", "Don't - S9 Javi"),
         OPTION("You're welcome", "Welcome - S9 Javi")),
@@ -612,17 +611,17 @@ topics[$ "Duo - S9 Javi"] = [
 topics[$ "Don't - S9 Javi"] = [
 	TEXT("No need to thank me, I just gave suggestions,"),
 	TEXT("it was you who made all the” improvements"),
-           SPEAKER(spr_javi_s),
+    SPEAKER(spr_javi_s2),
 	TEXT("Javi: ..."),
-           SPEAKER(spr_javi_h),
+	SPEAKER(spr_javi_h),
 	TEXT("Javi: We should get going, he has practice later and I don't want to miss it"),
 ];
 
 topics[$ "Welcome - S9 Javi"] = [
 	TEXT("I did my best, but don't forget all the work you did."),
-           SPEAKER(spr_javi_s),
+    SPEAKER(spr_javi_s2),
 	TEXT("Javi: ..."),
-           SPEAKER(spr_javi_h),
+    SPEAKER(spr_javi_h),
 	TEXT("Javi: We should get going, he has practice later and I don't want to miss it"),
 ];
 

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Side",
-    "path":"folders/Sprites/NPCs/Side.yy",
+    "name":"Avy",
+    "path":"folders/Sprites/NPCs/Side/Avy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

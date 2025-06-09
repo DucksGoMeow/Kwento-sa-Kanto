@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Side",
-    "path":"folders/Sprites/NPCs/Side.yy",
+    "name":"Ethan",
+    "path":"folders/Sprites/NPCs/Side/Ethan.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

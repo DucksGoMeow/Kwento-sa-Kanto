@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Main",
-    "path":"folders/Sprites/NPCs/Main.yy",
+    "name":"Pregnant",
+    "path":"folders/Sprites/NPCs/Main/Angela/Pregnant.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -10,7 +10,7 @@ if (davetime <= 7.0) {
 
 if (davetime <= 4.0) {
 	timercolor = c_red;
-	layer_sprite_create("Customers", 508, 293, spr_prep_b)
+	layer_sprite_create("Customers", 508, 293, spr_kath_b)
 }
 
 draw_set_color(timercolor);

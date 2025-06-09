@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_prep_n",
-    "path":"sprites/spr_prep_n/spr_prep_n.yy",
+    "name":"spr_kath_n",
+    "path":"sprites/spr_kath_n/spr_kath_n.yy",
   },
   "spriteMaskId":null,
   "visible":true,
