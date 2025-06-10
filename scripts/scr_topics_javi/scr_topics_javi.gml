@@ -1,6 +1,10 @@
 function scr_topics_javi(topics) {
 
 topics[$ "... - Javi"] = [
+	TEXT("Javi: ..."),
+];
+
+topics[$ "... - ???Javi"] = [
 	TEXT("???: ..."),
 ];
 
@@ -9,6 +13,13 @@ topics[$ "Wrong item - Javi"] = [
 	TEXT("Javi: That’s uh..."),
 	TEXT("Javi: Sorry nevermind I’ll go")
 ];
+
+topics[$ "Wrong item - ???Javi"] = [
+	SPEAKER(spr_javi_b),
+	TEXT("???: That’s uh..."),
+	TEXT("???: Sorry nevermind I’ll go")
+];
+
 
 #region SCENE 1 (Loop)
 
@@ -48,7 +59,6 @@ topics[$ "Start - S2 Javi"] = [
 	CHOICE("Oh...right yea thanks",
 		OPTION("Your name?", "Name - S2 Javi"),
 		OPTION("Don't stay quiet", "Quiet - S2 Javi")),
-	
 ];
 
 //GOOD
@@ -136,10 +146,6 @@ topics[$ "Ranked - S2 Javi"] = [
 
 #region SCENE 3
 
-topics[$ "... - S3 Javi"] = [
-	TEXT("Javi: ..."),
-];
-
 topics[$ "Start - S3 Javi"] = [
 	SPEAKER(spr_javi_g),
 	CHOICE("Javi: Oh...right yea thanks",
@@ -197,10 +203,6 @@ topics[$ "Bad - S3 Javi"] = [
 #endregion
 
 #region SCENE 4
-
-topics[$ "... - S4 Javi"] = [
-	TEXT("Javi: ..."),
-];
 
 topics[$ "Start - S4 Javi"] = [
     SPEAKER(spr_javi_g),
@@ -284,12 +286,7 @@ topics[$ "Go for it - S4 Javi"] = [
 
 #region SCENE 5
 
-topics[$ "... - S5 Javi"] = [
-	TEXT("Javi: ..."),
-];
-
 //GOOD
-
 topics[$ "Good Start - S5 Javi"] = [
 	CHOICE("Javi: Oh...right yea thanks",
 		OPTION("How'd it go?", "Good Howd it go - S5 Javi"),
@@ -365,15 +362,10 @@ topics[$ "Bad Alright - S5 Javi"] = [
 
 #region SCENE 6
 
-topics[$ "... - S6 Javi"] = [
-	TEXT("Javi: ..."),
-];
-
 topics[$ "Start - S6 Javi"] = [
-	CUSTOMTEXT("Javi: Oh...right yea thanks", function() { obj_javi.startS6Javi = false}),
     SPEAKER(spr_javi_bl2),
 	CUSTOMTEXT("Javi: Uhm.. if you..", function() { obj_javi.startS7Javi = true}),
-	TEXT("Javi: Uh if you had to get someone a gift..."),
+	CUSTOMTEXT("Javi: Uh if you had to get someone a gift...", function() { obj_javi.startS6Javi = false}),
 	TEXT("Javi: What uh what would you get them?"),
 	SPEAKER(spr_javi_bl),
 	CHOICE("Javi: Something thoughtful or something useful?",
@@ -418,12 +410,7 @@ topics[$ "Useful - S6 Javi"] = [
 
 #region SCENE 7
 
-topics[$ "... - S7 Javi"] = [
-	TEXT("Javi: ..."),
-];
-
 topics[$ "Start - S7 Javi"] = [
-	CUSTOMTEXT("Javi: Oh...right yea thanks", function() { obj_javi.startS7Javi = false}),
     SPEAKER(spr_javi_bl2),
 	CUSTOMTEXT("Javi: So uh if I were to try and teach someone a videogame...", function() { obj_javi.startS8Javi = true}),
 	CHOICE("Javi: how should I go about it?",
@@ -432,7 +419,7 @@ topics[$ "Start - S7 Javi"] = [
 ];
 
 topics[$ "Slow - S7 Javi"] = [
-	TEXT("Take it slow"),
+	CUSTOMTEXT("Take it slow", function() { obj_javi.startS7Javi = false}),
 	TEXT("Throw them into some casual before ranked matches so they get a hands on approach"),
     SPEAKER(spr_javi_bl2),
 	TEXT("Javi: Ok...uhm..."),
@@ -444,7 +431,7 @@ topics[$ "Slow - S7 Javi"] = [
 ];
 
 topics[$ "Tutorials - S7 Javi"] = [
-	TEXT("Find some videos online of how to play the game,"),
+	CUSTOMTEXT("Find some videos online of how to play the game,", function() { obj_javi.startS7Javi = false}),
 	TEXT("so they get a headstart on what to do"),
     SPEAKER(spr_javi_bl2),
 	TEXT("Javi: Ok...uhm..."),
@@ -487,12 +474,7 @@ topics[$ "Working out - S7 Javi"] = [
 
 #region SCENE 8
 
-topics[$ "... - S8 Javi"] = [
-	TEXT("Javi: ..."),
-];
-
 topics[$ "Start - S8 Javi"] = [
-	CUSTOMTEXT("Javi: Oh...right yea thanks", function() { obj_javi.startS8Javi = false}),
 	SPEAKER(spr_javi_bl2),
 	CHOICE("Javi: Have you ever been in love?",
 		OPTION("I guess", "I guess - S8 Javi"),
@@ -514,7 +496,7 @@ topics[$ "No - S8 Javi"] = [
 ];
 
 topics[$ "About - S8 Javi"] = [
-	TEXT("Is this about that person you started talking to?"),
+	CUSTOMTEXT("Is this about that person you started talking to?", function() { obj_javi.startS8Javi = false}),
     SPEAKER(spr_javi_bl),
 	TEXT("Javi: !!!"),
 	TEXT("Javi: Yes, I think I’m starting to fall for them..."),
@@ -526,7 +508,7 @@ topics[$ "About - S8 Javi"] = [
 
 topics[$ "Love - S8 Javi"] = [
     SPEAKER(spr_javi_bl),
-	TEXT("Javi: !!!"),
+	CUSTOMTEXT("Javi: !!!", function() { obj_javi.startS8Javi = false}),
 	TEXT("Javi: Yes, I think I’m starting to fall in love..."),
 	TEXT("Javi: But I don't know what to do"),
 	CHOICE("Javi: I’ve never really fallen in love with someone like them before.",
@@ -576,14 +558,14 @@ topics[$ "Subtle - S8 Javi"] = [
 
 #region SCENE 9
 
-topics[$ "Start - S9 Javi"] = [
+topics[$ "Start - S9 Javi & Dennis"] = [
    SPEAKER(spr_javi_h),
 	CHOICE("Javi: Hey",
 		OPTION("A Man!?", "Man - S9 Javi"),
         OPTION("Your duo", "Duo - S9 Javi")),
 ];
 
-topics[$ "Man - S9 Javi"] = [
+topics[$ "Man - S9 Javi & Dennis"] = [
 	CUSTOMTEXT("Javi: Yeah...this is Dennis, He’s the one I’ve been talking about", function() { obj_javi.GEJavi = true}),
 	CUSTOMTEXT("Dennis: Wait... this is the store?! The one that helped you!?", function() { obj_javi.S9Javi = false}),
 	TEXT("Javi: Yep"),
@@ -595,7 +577,7 @@ topics[$ "Man - S9 Javi"] = [
         OPTION("You're welcome", "Welcome - S9 Javi")),
 ];
 
-topics[$ "Duo - S9 Javi"] = [
+topics[$ "Duo - S9 Javi & Dennis"] = [
 	TEXT("Looks like you found your duo!"),
 	CUSTOMTEXT("Javi: Yeah...this is Dennis, He’s the one I’ve been talking about", function() { obj_javi.GEJavi = true}),
 	CUSTOMTEXT("Dennis: Wait... this is the store?! The one that helped you!?", function() { obj_javi.S9Javi = false}),
@@ -608,7 +590,7 @@ topics[$ "Duo - S9 Javi"] = [
         OPTION("You're welcome", "Welcome - S9 Javi")),
 ];
 
-topics[$ "Don't - S9 Javi"] = [
+topics[$ "Don't - S9 Javi & Dennis"] = [
 	TEXT("No need to thank me, I just gave suggestions,"),
 	TEXT("it was you who made all the” improvements"),
     SPEAKER(spr_javi_s2),
@@ -617,7 +599,7 @@ topics[$ "Don't - S9 Javi"] = [
 	TEXT("Javi: We should get going, he has practice later and I don't want to miss it"),
 ];
 
-topics[$ "Welcome - S9 Javi"] = [
+topics[$ "Welcome - S9 Javi & Dennis"] = [
 	TEXT("I did my best, but don't forget all the work you did."),
     SPEAKER(spr_javi_s2),
 	TEXT("Javi: ..."),
