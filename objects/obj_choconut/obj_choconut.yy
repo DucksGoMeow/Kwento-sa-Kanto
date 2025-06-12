@@ -1,20 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj__customer_spawner",
+  "%Name":"obj_choconut",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj__customer_spawner",
+  "name":"obj_choconut",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPC Stuff",
-    "path":"folders/Objects/NPC Stuff.yy",
+    "name":"Front",
+    "path":"folders/Objects/Items/Items/Front.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_choconut",
+    "path":"sprites/spr_choconut/spr_choconut.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

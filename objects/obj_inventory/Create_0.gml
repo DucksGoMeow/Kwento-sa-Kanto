@@ -6,6 +6,7 @@ rowLength = 5;
 
 //creates inventory 
 inventory = array_create(INVENTORY_SLOTS, -1);
+global.filled = 0;
 randomize();
 //inventory[0] = 0;
 

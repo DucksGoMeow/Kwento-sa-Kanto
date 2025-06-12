@@ -5,6 +5,14 @@ else {
 	myTime = 0;
 }
 
+if (room == rm_front) {
+	visible = true;
+}
+else {
+	visible = false;
+}
+
+if (room == rm_front) {
 if (point_in_rectangle(mouse_x, mouse_y, 
       x - sprite_xoffset, y - sprite_yoffset, 
       x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
@@ -12,6 +20,7 @@ if (point_in_rectangle(mouse_x, mouse_y,
 		if (startjavi = true) {
 			if (!GEJavi) {
 				if (startS2Javi = true) {
+				draw_sprite(spr_javi_n, 0, 508, 224);
 				startDialogue("Start - S2 Javi");
 				}
 				else if (startS3Javi = true) {
@@ -52,4 +61,5 @@ if (point_in_rectangle(mouse_x, mouse_y,
 			startDialogue("... - S1 Javi");
 		}
 	}
+}
 }

@@ -1,4 +1,4 @@
-myTime = 10.0;
-maxTime = 10.0;
-showTime = myTime;
-//150.0
+global.Time = 48.0;
+global.maxTime = 48.0;
+
+global.timergo = true;

@@ -319,14 +319,14 @@ topics[$ "Strong - S7 Andoy"] = [
 	TEXT("Leave a strong message and impression"),
 	TEXT("Leave no room for you competition!"),
 	SPEAKER(spr_andoy_g),
-	TEXT("Andoy: Thank you dear friend! I'll take that into consideration!")),
+	TEXT("Andoy: Thank you dear friend! I'll take that into consideration!"),
 ];
 
 topics[$ "Kind - S7 Andoy"] = [
 	TEXT("Show that you’re kind and compassionate"),
 	TEXT("That you’re one with the people!"),
 	SPEAKER(spr_andoy_g),
-	TEXT("Andoy: Thank you dear friend! I'll take that into consideration!")),
+	TEXT("Andoy: Thank you dear friend! I'll take that into consideration!"),
 ];
 
 #endregion

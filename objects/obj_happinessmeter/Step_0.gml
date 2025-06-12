@@ -1,9 +1,8 @@
-if myTime > 0 {
-	myTime = myTime - delta_time/1000000
+if (global.timergo = true) {
+if global.Time > 0 {
+	global.Time = global.Time - delta_time/1000000
 }
 else {
-	myTime = 0;
-	//times up action
+	global.Time = 0;
 }
-
-showTime = ceil(myTime);
+}

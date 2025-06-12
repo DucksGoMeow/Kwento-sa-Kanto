@@ -14,7 +14,7 @@ for(var i=0; i<itemCount; i++){
 	
 	//Draw position
 	var _x = (menuX + 205) + menuWidth/5;
-	var _y = (guiHeight/3) + (i-selectedAnim)*32;
+	var _y = (guiHeight/4) + (i-selectedAnim)*32;
 	
 	//Draw scale
 	var s = 1;
