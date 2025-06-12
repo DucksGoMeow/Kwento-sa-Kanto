@@ -117,6 +117,7 @@ topics[$ "Thoughts - S2 Andoy"] = [
 #region Scene 3
 
 topics[$ "Start - S3 Cruz"] = [
+	SPEAKER(spr_cruz_s),
 	TEXT("???: Hey kid, I see this place isn’t doing too hot"),
 	TEXT("???: I think you need a little help."),	
 	TEXT("Cruz:	Where are my manners, you can call me Cruz"),
@@ -130,10 +131,12 @@ topics[$ "Start - S3 Cruz"] = [
 ];
 
 topics[$ "Plan - S3 Cruz"] = [
+	SPEAKER(spr_cruz_g),
 	TEXT("Cruz: I can lower the prices of things"),
 	TEXT("Cruz: Gadgets? Tuition?"),
 	TEXT("Cruz: Stuff like that I can lower those if you help me out."),
 	TEXT("Cruz:	Thing is, people dont really like me"),
+	SPEAKER(spr_cruz_s),
 	TEXT("Cruz: Not sure why, guess they don't like free money HA!"),
 	CHOICE("Cruz: I kid, of course but if you help me out I’ll help you out.",
 		OPTION("Fine","Fine - S3 Cruz"),
@@ -141,6 +144,7 @@ topics[$ "Plan - S3 Cruz"] = [
 ];
 
 topics[$ "Trust - S3 Cruz"] = [
+	SPEAKER(spr_cruz_a),
 	TEXT("Cruz: Hey it’s your missed opportunity, not mine"),
 ];
 
@@ -152,6 +156,7 @@ topics[$ "Fine - S3 Cruz"] = [
 
 //GOOD
 topics[$ "Out - S3 Cruz"] = [
+	SPEAKER(spr_cruz_a),
 	TEXT("Cruz: Hey it’s your missed opportunity, not mine"),
 ];
 #endregion
@@ -211,11 +216,13 @@ topics[$ "Start - S5 Cruz"] = [
 
 //BAD
 topics[$ "Sure - S5 Cruz"] = [
+		SPEAKER(spr_cruz_s),
 	TEXT("Cruz:	You will not regret this my friend"),
 	TEXT("Cruz:	We're gonna make a lotta cash you and I"),
 ];
 
 topics[$ "No - S5 Cruz"] = [
+	SPEAKER(spr_cruz_a),
 	TEXT("Cruz:	Hey no worries! I’m just doing my part!"),
 ];
 
@@ -330,6 +337,7 @@ topics[$ "Start - S8 Cruz"] = [
 	TEXT("Cruz:	Hello friend"),
 	TEXT("Cruz: Elections rolling around soon and I require your help again"),
 	TEXT("Cruz:	You just need to tell me something"),
+	SPEAKER(spr_cruz_a),
 	CHOICE("Cruz: Do you happen to know Andoy? Does he visit here?",
 		OPTION("Yes","Yes - S8 Cruz"),
 		OPTION("No", "No - S8 Cruz")),
@@ -337,6 +345,7 @@ topics[$ "Start - S8 Cruz"] = [
 
 //BAD
 topics[$ "Yes - S8 Cruz"] = [
+	SPEAKER(spr_cruz_a),
 	TEXT("He does visit here sometimes"),
 	TEXT("Cruz: Thank you, my dear friend."),
 ];
@@ -344,6 +353,7 @@ topics[$ "Yes - S8 Cruz"] = [
 //GOOD
 topics[$ "No - S8 Cruz"] = [
 	TEXT("Never heard of him."),
+	SPEAKER(spr_cruz_n),
 	TEXT("Cruz: Okay, my friend."),
 ];
 #endregion
@@ -400,23 +410,25 @@ topics[$ "Start Bad - S9 Andoy"] = [
 topics[$ "Happened - S9 Andoy"] = [
 	SPEAKER(spr_andoy_b),
 	TEXT("Andoy: All my plans and scripts were stolen! "),
+	SPEAKER(spr_andoy_s),
 	TEXT("Andoy: I don't know how to continue with my campaign"),
 	TEXT("Andoy: I think I need to pull out of the race..."),
 	TEXT("Andoy: Thank you for the help anyways, my dear friend"),
 	TEXT("Andoy: I will still repay you for what you gave me"),
 	TEXT("Andoy: Best of luck to you"),
-	TEXT("Andoy: Goodbye"),
+	TEXT("Andoy: Goodbye my dear friend"),
 ];
 
 topics[$ "Uh oh - S9 Andoy"] = [
 	SPEAKER(spr_andoy_b),
 	TEXT("Andoy: All my plans and scripts were stolen! "),
+	SPEAKER(spr_andoy_s),
 	TEXT("Andoy: I don't know how to continue with my campaign"),
 	TEXT("Andoy: I think I need to pull out of the race..."),
 	TEXT("Andoy: Thank you for the help anyways, my dear friend"),
 	TEXT("Andoy: I will still repay you for what you gave me"),
 	TEXT("Andoy: Best of luck to you"),
-	TEXT("Andoy: Goodbye"),
+	TEXT("Andoy: Goodbye my dear friend"),
 ];
 
 #endregion
@@ -424,19 +436,24 @@ topics[$ "Uh oh - S9 Andoy"] = [
 #region Scene 10
 
 topics[$ "Start - S10 Andoy"] = [
+	SPEAKER(spr_andoy_g),
 	CHOICE("Andoy: Ah, there you are!",
 		OPTION("How’d it go?", "Got this - S10 Andoy"),
 		OPTION("Did you win?", "Win - S10 Andoy")),
 ];
 
 topics[$ "Start - S10 Andoy"] = [
+	SPEAKER(spr_andoy_g),
 	TEXT("Andoy: The election when splendidly in my favor!"),
 	TEXT("Andoy: People really liked what I had to offer"),
 	TEXT("Andoy: So I must thank you for your suggestions and help!"),
+	SPEAKER(spr_andoy_n),
 	TEXT("Andoy: Thanks to the help you’ve provided all these other people"),
 	TEXT("Andoy: The community around here has never been better!"),
+	SPEAKER(spr_andoy_g),
 	TEXT("Andoy: (You might even be doing a better job than me haha!)"),
 	TEXT("Andoy: Well now that I’m elected I’ve become a busy man"),
+	SPEAKER(spr_andoy_n),
 	TEXT("Andoy: So I’ll be going now"),
 	TEXT("Andoy: I’ll make sure not just your street, but other places like yours"),
 	CHOICE("Andoy: Get the help it deserves!",
@@ -453,6 +470,7 @@ topics[$ "Thank you - S10 Andoy"] = [
 ];
 
 topics[$ "Ending - S10 Cruz"] = [
+	SPEAKER(spr_cruz_n),
 	TEXT("Cruz: Damnit kid, why couldn’t you have trusted me, instead of that idiot!"),
 	TEXT("Cruz: I would’ve lowered prices! I could’ve helped the economy"),
 	CHOICE("Cruz: Why would you pick some schmuck instead!?",
@@ -462,11 +480,13 @@ topics[$ "Ending - S10 Cruz"] = [
 
 topics[$ "Silly - S10 Andoy"] = [
 	TEXT("Cruz: ..."),
+	SPEAKER(spr_cruz_a),
 	TEXT("Cruz: You’re hopeless"),
 ];
 
 topics[$ "Cared - S10 Andoy"] = [
 	TEXT("Cruz: ..."),
+	SPEAKER(spr_cruz_a),
 	TEXT("Cruz: You’re hopeless"),
 ];
 #endregion
