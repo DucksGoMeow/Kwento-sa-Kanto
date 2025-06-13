@@ -34,9 +34,14 @@ for(var i=0; i<itemCount; i++){
 
 //Get selected item's data
 var arr = items[| selected];
-var item = arr[0];
-var price = arr[1];
-var desc = arr[2];
+	var item = arr[0];
+	var price = arr[1];
+	var obj = arr[2];
+	var rm = arr[3];
+	var xvalue = arr[4];
+	var yvalue = arr[5];
+	var count = arr[6];
+	var amm = arr[7];
 
 //Draw position
 var _x = (menuMargin + menuWidth) + previewWidth/2;
@@ -57,7 +62,7 @@ if (sprite_exists(spr)) {
 draw_set_halign(fa_center);
 draw_set_font(fnt_medium);
 	draw_set_valign(fa_middle);
-		draw_text(_x, _y + 80, desc);
+		//draw_text(_x, _y + 80, desc);
 	draw_set_valign(fa_left);
 draw_set_halign(fa_left);
 

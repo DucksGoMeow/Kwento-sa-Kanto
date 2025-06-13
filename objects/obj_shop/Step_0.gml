@@ -20,11 +20,15 @@
 	var rm = arr[3];
 	var xvalue = arr[4];
 	var yvalue = arr[5];
+	var count = arr[6];
+	var amm = arr[7];
 	
 	if (keyboard_check_pressed(vk_enter) && global.money >= price) {
-		//Add to inventory
-		room_instance_add(rm, xvalue, yvalue, obj);
-		
 		//Reduce money
 		global.money -= price;
-	}
+		
+		if (item == "Choco-Nut") {
+			global.choconutcount += 10;
+			global.choconutava = true;
+		}
+	}	

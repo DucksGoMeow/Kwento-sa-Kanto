@@ -15,5 +15,19 @@ global.days_file3 = 0;
 
 global.reputation = 50;
 
-global.choconutava = false;
+//front
+global.choconutcount = 10;
+global.choconutava = true;
 global.haschoconut = false;
+global.fruitsava = true;
+global.hasfruits = false;
+global.chipotava = false;
+global.haschipot = false;
+global.sareeava = false;
+global.hassarees = false;
+
+//right
+
+//back
+
+//left

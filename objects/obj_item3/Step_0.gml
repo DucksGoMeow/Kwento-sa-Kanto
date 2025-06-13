@@ -9,7 +9,7 @@ if (point_in_rectangle(mouse_x, mouse_y,
         show_debug_message("Sprite clicked!");
         	inventoryAdd(obj_inventory, 2);
 			global.hasitem3 = true;
-			instance_destroy(obj_item3);
-	  }
-}
+			inventoryRemove(obj_inventory, 2)
+		 }
+	}
 }

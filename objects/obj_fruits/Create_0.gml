@@ -1,8 +1,3 @@
-if (global.choconutcount <= 0) {
-    instance_destroy();
-    exit;
-}
-
 my_id = $"{x}:{y}" //we need to run our own custom id system to tell the objects apart, 
 //because 'id' is volatile and can change between runs. $" " is called a string format. 
 //it's just a neater way of writing string(x)+":"+string(y). the things inside {} run 
@@ -31,7 +26,8 @@ else{ //otherwise, if it's false, OR if it is undefined (aka we've never registe
   //if the data is false, then we also just override it with false, so that's fine :)
 }
 
-global.choconutava = true;
-global.haschoconut = false;
+global.fruitsava = true;
+global.hasfruits = false;
 
-choconutempty = false;
+fruitscount = 6;
+fruitsempty = false;
