@@ -5,10 +5,19 @@ function scr_topics_extra(topics){
 	TEXT("Hello World"),
 ];
 
-topics[$ "Woof"] = [
+topics[$ "No choconut"] = [
 	//TEXT(" ")
-	TEXT("Good Dog, Best Friend"),
+	TEXT("you dont have what i want"),
 ];
 
+topics[$ "has choconut"] = [
+	//TEXT(" ")
+	TEXT("you have what i want"),
+];
+
+topics[$ "got choconut"] = [
+	//TEXT(" ")
+	TEXT("thanks"),
+];
 
 }

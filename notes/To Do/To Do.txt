@@ -42,9 +42,12 @@ Music/Audio ✔
 Final touches (submission)
 
 When You Come Back:
-Shop menu!!!
+Add inventory menu to shop
+Add to cart and buy button
+
+Dialogue
+
 Do the music
-The settings
 Make everything look nice
 
-finish the delete file in the save menu l8r
+The settings

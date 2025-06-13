@@ -14,3 +14,6 @@ global.days_file2 = 0;
 global.days_file3 = 0;
 
 global.reputation = 50;
+
+global.choconutava = false;
+global.haschoconut = false;

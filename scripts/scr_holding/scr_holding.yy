@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_nameholding",
+  "%Name":"scr_holding",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_nameholding",
+  "name":"scr_holding",
   "parent":{
-    "name":"Dialogue Stuff",
-    "path":"folders/Scripts/Dialogue Stuff.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

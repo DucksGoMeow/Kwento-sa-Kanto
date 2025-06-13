@@ -1,4 +1,4 @@
-
+if (choconutcount >= 1) and (global.choconutava == true) {
 if (point_in_rectangle(mouse_x, mouse_y, 
       x - sprite_xoffset, y - sprite_yoffset, 
       x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
@@ -7,6 +7,8 @@ if (point_in_rectangle(mouse_x, mouse_y,
         	inventoryAdd(obj_inventory, 4);
 			global.filled += 1;
 			choconutcount -= 1;
+			global.haschoconut = true;
 			show_debug_message(string(choconutcount));
 		 }
 	}
+}
