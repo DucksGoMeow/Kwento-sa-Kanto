@@ -27,6 +27,36 @@
 			global.choconutava = true;
 		}
 		
+		if (item == "Fruits") {
+			global.fruitscount += 6;
+			global.fruitsava = true;
+		}
+		
+		if (item == "Chipot") {
+			global.chipotcount += 7;
+			global.chipotava = true;
+		}
+		
+		if (item == "Saree") {
+			global.sareecount += 11;
+			global.sareeava = true;
+		}
+		
+		if (item == "Stiks Strawberry") {
+			global.stiksstrawcount += 14;
+			global.stiksstrawava = true;
+		}
+		
+		if (item == "Stiks Chocolate") {
+			global.stikschococount += 14;
+			global.stikschocoava = true;
+		}
+		
+		if (item == "Lollipop") {
+			global.lollipopcount += 3;
+			global.lollipopava = true;
+		}
+		
 		//left
 		
 		//back

@@ -19,12 +19,31 @@ global.reputation = 50;
 global.choconutcount = 10;
 global.choconutava = true;
 global.haschoconut = false;
+
+global.fruitscount = 6;
 global.fruitsava = true;
 global.hasfruits = false;
+
+global.chipotcount = 0;
 global.chipotava = false;
 global.haschipot = false;
+
+global.sareecount = 0;
 global.sareeava = false;
 global.hassarees = false;
+
+global.stiksstrawcount = 0;
+global.stiksstrawava = false;
+global.hasstiksstraw = false;
+
+global.stikschococount = 14;
+global.stikschocoava = true;
+global.hasstikschoco = false;
+
+global.lollipopcount = 3;
+global.lollipopava = true;
+global.haslollipop = false;
+
 
 //right
 
