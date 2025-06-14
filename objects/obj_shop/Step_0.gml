@@ -16,12 +16,6 @@
 	var arr = items[| selected];
 	var item = arr[0];
 	var price = arr[1];
-	var obj = arr[2];
-	var rm = arr[3];
-	var xvalue = arr[4];
-	var yvalue = arr[5];
-	var count = arr[6];
-	var amm = arr[7];
 	
 	if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 		//Reduce money

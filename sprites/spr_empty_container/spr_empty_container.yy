@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Right",
-    "path":"folders/Sprites/Items/Background/Right.yy",
+    "name":"Empty",
+    "path":"folders/Sprites/Items/Background/Right/Empty.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

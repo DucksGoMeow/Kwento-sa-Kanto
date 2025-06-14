@@ -36,12 +36,6 @@ for(var i=0; i<itemCount; i++){
 var arr = items[| selected];
 	var item = arr[0];
 	var price = arr[1];
-	var obj = arr[2];
-	var rm = arr[3];
-	var xvalue = arr[4];
-	var yvalue = arr[5];
-	var count = arr[6];
-	var amm = arr[7];
 
 //Draw position
 var _x = (menuMargin + menuWidth) + previewWidth/2;

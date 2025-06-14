@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_prevsong_button",
+    "path":"sprites/spr_prevsong_button/spr_prevsong_button.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

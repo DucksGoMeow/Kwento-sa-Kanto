@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_arrowR",
-    "path":"sprites/spr_arrowR/spr_arrowR.yy",
+    "name":"spr_nextsong_button",
+    "path":"sprites/spr_nextsong_button/spr_nextsong_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

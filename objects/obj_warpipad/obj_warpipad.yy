@@ -9,8 +9,8 @@
   "name":"obj_warpipad",
   "overriddenProperties":[],
   "parent":{
-    "name":"Room Things",
-    "path":"folders/Objects/Room Things.yy",
+    "name":"Back",
+    "path":"folders/Objects/Items/Items/Back.yy",
   },
   "parentObjectId":null,
   "persistent":false,
