@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_slot",
+  "%Name":"spr_slot2",
   "bboxMode":0,
-  "bbox_bottom":123,
+  "bbox_bottom":124,
   "bbox_left":10,
-  "bbox_right":139,
+  "bbox_right":138,
   "bbox_top":6,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,9 +19,9 @@
   "height":130,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b97ca97a-689e-42bb-aee9-5c49cdbb7f3b","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b97ca97a-689e-42bb-aee9-5c49cdbb7f3b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"adef3da1-051a-4cc4-aef5-36385aa87694","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"adef3da1-051a-4cc4-aef5-36385aa87694","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_slot",
+  "name":"spr_slot2",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_slot",
+    "%Name":"spr_slot2",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_slot",
+    "name":"spr_slot2",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"362b5b55-434f-4f90-9d97-87f733512ba0","path":"sprites/spr_slot/spr_slot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"362b5b55-434f-4f90-9d97-87f733512ba0","path":"sprites/spr_slot2/spr_slot2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1e863a8e-d985-41ad-863b-eb22fbe7fb37","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

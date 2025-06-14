@@ -21,8 +21,20 @@
 		//Reduce money
 		global.money -= price;
 		
+		//front
 		if (item == "Choco-Nut") {
 			global.choconutcount += 10;
 			global.choconutava = true;
 		}
+		
+		//left
+		
+		//back
+		if (item == "Marlo") {
+			global.marlocount += 1;
+			global.marloava = true;
+		}
+		
+		//right
+		
 	}	

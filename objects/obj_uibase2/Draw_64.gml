@@ -1,1 +1,1 @@
-draw_sprite(spr_uibase, 0, 0, 0);
+draw_sprite(spr_uibase2, 0, 0, 0);

@@ -29,5 +29,8 @@ global.hassarees = false;
 //right
 
 //back
+global.marlocount = 0;
+global.marloava = false;
+global.hasmarlo = false;
 
 //left

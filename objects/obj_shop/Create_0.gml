@@ -8,7 +8,7 @@ ds_list_add(items, ["3D Apple", 10,]);
 ds_list_add(items, ["3D Classic", 10,]);
 ds_list_add(items, ["Boullion", 10,]);
 ds_list_add(items, ["Buko Ice Candy", 10,]);
-ds_list_add(items, ["Buko Pandan Ice Candy",]);
+ds_list_add(items, ["Buko Pandan Ice Candy", 10]);
 ds_list_add(items, ["Calamansi Juice", 10,]);
 ds_list_add(items, ["Chipot", 10,]);
 ds_list_add(items, ["Choci", 10,]);
@@ -54,7 +54,6 @@ ds_list_add(items, ["Twin Icee Chocolate", 10,]);
 ds_list_add(items, ["Twin Icee Orange", 10,]);
 ds_list_add(items, ["Zest Guyabano", 10,]);
 ds_list_add(items, ["Zest Mango", 10,]);
-
 
 //ds_list_add(items, ["Name", Price);
 

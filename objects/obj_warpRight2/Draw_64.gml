@@ -1,1 +1,1 @@
-draw_sprite(spr_arrowR, 0, 1417, 840)
+draw_sprite(spr_arrowR2, 0, 1447, 840)

@@ -1,16 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_money",
+  "%Name":"obj_marlo",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_money",
+  "name":"obj_marlo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player Stuff",
-    "path":"folders/Objects/Player Stuff.yy",
+    "name":"Back",
+    "path":"folders/Objects/Items/Items/Back.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -30,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_marlo",
+    "path":"sprites/spr_marlo/spr_marlo.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
