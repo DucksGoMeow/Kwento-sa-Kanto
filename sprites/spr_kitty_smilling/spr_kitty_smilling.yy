@@ -19,7 +19,8 @@
   "height":264,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7f09dc5e-5456-4480-9233-6fb89ae05e24","blendMode":0,"displayName":"default","isLocked":false,"name":"7f09dc5e-5456-4480-9233-6fb89ae05e24","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"dfc3156d-51cd-40a9-bca8-8be56b1f3573","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"dfc3156d-51cd-40a9-bca8-8be56b1f3573","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9bfca960-3407-46ef-890b-aebbdfd0ba92","blendMode":0,"displayName":"default","isLocked":false,"name":"9bfca960-3407-46ef-890b-aebbdfd0ba92","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_kitty_smilling",
   "nineSlice":null,
