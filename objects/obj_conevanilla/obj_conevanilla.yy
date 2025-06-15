@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_conerose",
-    "path":"sprites/spr_conerose/spr_conerose.yy",
+    "name":"spr_conevanilla",
+    "path":"sprites/spr_conevanilla/spr_conevanilla.yy",
   },
   "spriteMaskId":null,
   "visible":true,

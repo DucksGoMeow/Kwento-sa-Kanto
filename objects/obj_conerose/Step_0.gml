@@ -5,7 +5,7 @@ if (room == rm_left) {
 			x - sprite_xoffset + sprite_width, y - sprite_yoffset + sprite_height)) {
 				if (mouse_check_button_pressed(mb_left)) {
 					show_debug_message("Sprite clicked!");
-					inventoryAdd(obj_inventory, 27);
+					inventoryAdd(obj_inventory, 35);
 					global.filled += 1;
 					global.conerosecount -= 1;
 					global.hasconerose = true;

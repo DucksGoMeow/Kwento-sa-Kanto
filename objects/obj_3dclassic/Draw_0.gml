@@ -1,4 +1,4 @@
-if (global.classiccount >= 4) {
+if (global.classiccount >= 1) {
 	draw_sprite(spr_classic, 0 ,430, 374);
 }
 else if (global.classiccount == 0) {

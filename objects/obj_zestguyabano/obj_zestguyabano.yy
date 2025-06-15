@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tigertag",
-    "path":"sprites/spr_tigertag/spr_tigertag.yy",
+    "name":"spr_zestguyabano",
+    "path":"sprites/spr_zestguyabano/spr_zestguyabano.yy",
   },
   "spriteMaskId":null,
   "visible":true,

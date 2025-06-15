@@ -79,6 +79,69 @@ global.conerosecount = 0;
 global.coneroseava = false;
 global.hasconerose = false;
 
+global.conevanillacount = 0;
+global.conevanillaava = false;
+global.hasconevanilla = false;
+
+global.gjuicebcount = 0;
+global.gjuicebava = false;
+global.hasgjuiceb = false;
+
+global.gjuicercount = 0;
+global.gjuicerava = false;
+global.hasgjuicer = false;
+
+global.hobahobacount = 0;
+global.hobahobaava = false;
+global.hashobahoba = false;
+
+global.hobahobalitrocount = 0;
+global.hobahobalitroava = false;
+global.hashobahobalitro = false;
+
+global.rexcount = 0;
+global.rexava = false;
+global.hasrex = false;
+
+global.rexlitrocount = 0;
+global.rexlitroava = false;
+global.hasrexlitro = false;
+
+global.sprotcount = 0;
+global.sprotava = false;
+global.hassprot = false;
+
+global.sprotlitrocount = 0;
+global.sprotlitroava = false;
+global.hassprotlitro = false;
+
+global.icecreamcupcount = 0;
+global.icecreamcupava = false;
+global.hasicecreamcup = false;
+
+global.tigertaggedcount = 0;
+global.tigertaggedava = false;
+global.hastigertagged = false;
+
+global.tubeicecount = 0;
+global.tubeiceava = false;
+global.hastubeice = false;
+
+global.zestguyabanocount = 0;
+global.zestguyabanoava = false;
+global.haszestguyabano = false;
+
+global.zestmangocount = 0;
+global.zestmangoava = false;
+global.haszestmango = false;
+
+global.twinchococount = 0;
+global.twinchocoava = false;
+global.hastwinchoco = false;
+
+global.twinorangecount = 0;
+global.twinorangeava = false;
+global.hastwinorange = false;
 #endregion
 
 #region //right

@@ -12,5 +12,5 @@ else{
   global.room_save_data[$ room_get_name(room)][$ my_id] = false;
 }
 
-global.stiksstrawava = false;
-global.hasstiksstraw = false;
+global.twinorangeava = false;
+global.hastwinorange = false;

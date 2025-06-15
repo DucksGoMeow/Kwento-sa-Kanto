@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ice",
-    "path":"sprites/spr_ice/spr_ice.yy",
+    "name":"spr_tigertag",
+    "path":"sprites/spr_tigertag/spr_tigertag.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,10 +1,7 @@
-if (global.stiksstrawcount >= 4) {
-	draw_sprite(spr_strawstiks, 0 ,123, 610);
+if (global.gjuicercount >= 1) {
+	draw_sprite(spr_gjuice_blue, 0 ,202, 181);
 }
-else if (global.stiksstrawcount >= 1) {
-	draw_sprite(spr_strawstiks_low, 0 ,123, 610);
-}
-else if (global.stiksstrawcount == 0) {
-	draw_sprite(spr_emptystiks, 0 ,123, 610);
-	global.stiksstrawava = false;
+else if (global.gjuicercount == 0) {
+	draw_sprite(spr_empty, 0 ,202, 181);
+	global.gjuicerava = false;
 }

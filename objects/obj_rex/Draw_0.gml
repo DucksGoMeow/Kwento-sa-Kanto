@@ -1,10 +1,7 @@
-if (global.stiksstrawcount >= 4) {
-	draw_sprite(spr_strawstiks, 0 ,123, 610);
+if (global.rexcount >= 1) {
+	draw_sprite(spr_rex, 0 ,533, 647);
 }
-else if (global.stiksstrawcount >= 1) {
-	draw_sprite(spr_strawstiks_low, 0 ,123, 610);
-}
-else if (global.stiksstrawcount == 0) {
-	draw_sprite(spr_emptystiks, 0 ,123, 610);
-	global.stiksstrawava = false;
+else if (global.rexcount == 0) {
+	draw_sprite(spr_empty, 0 ,533, 647);
+	global.rexava = false;
 }

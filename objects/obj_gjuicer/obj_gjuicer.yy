@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gjuice_blue",
-    "path":"sprites/spr_gjuice_blue/spr_gjuice_blue.yy",
+    "name":"spr_gjuice_red",
+    "path":"sprites/spr_gjuice_red/spr_gjuice_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,

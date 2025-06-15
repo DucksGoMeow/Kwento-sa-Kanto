@@ -36,13 +36,13 @@ for(var i=0; i<itemCount; i++){
 var arr = items[| selected];
 	var item = arr[0];
 	var price = arr[1];
+	var spr = arr[2];
 
 //Draw position
 var _x = (menuMargin + menuWidth) + previewWidth/2;
 var _y = (guiHeight/2);
 
 //Draw sprite
-var spr = asset_get_index("sItem_" + item);
 
 if (sprite_exists(spr)) {
 	//Draw scale
@@ -53,6 +53,7 @@ if (sprite_exists(spr)) {
 }
 
 //Draw description
+draw_set_tcolor(#2d465a);
 draw_set_halign(fa_center);
 draw_set_font(fnt_medium);
 	draw_set_valign(fa_middle);
@@ -61,8 +62,7 @@ draw_set_font(fnt_medium);
 draw_set_halign(fa_left);
 
 //Draw price
-draw_set_valign(fa_bottom);
-	draw_text(menuMargin + menuWidth + 4, guiHeight-4, "Price: " + string(price));
+	draw_text(_x, _y, "Price: " + string(price));
 	
 	draw_set_halign(fa_right);
 		draw_text(guiWidth-4, guiHeight-4, "Hit ENTER to buy");

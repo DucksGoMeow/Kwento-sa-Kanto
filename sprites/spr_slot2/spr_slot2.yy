@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Player Stats",
-    "path":"folders/Sprites/Player/Player Stats.yy",
+    "name":"Room Things",
+    "path":"folders/Sprites/Room Things.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

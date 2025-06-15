@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sari_low",
-    "path":"sprites/spr_sari_low/spr_sari_low.yy",
+    "name":"spr_sari",
+    "path":"sprites/spr_sari/spr_sari.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sprot",
-    "path":"sprites/spr_sprot/spr_sprot.yy",
+    "name":"spr_sprot_litro",
+    "path":"sprites/spr_sprot_litro/spr_sprot_litro.yy",
   },
   "spriteMaskId":null,
   "visible":true,
