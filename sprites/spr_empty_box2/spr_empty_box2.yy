@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Empty",
-    "path":"folders/Sprites/Items/Background/Right/Empty.yy",
+    "path":"folders/Sprites/Items/Background/Empty.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

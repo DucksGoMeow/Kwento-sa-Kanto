@@ -15,7 +15,7 @@ global.days_file3 = 0;
 
 global.reputation = 50;
 
-//front
+#region //front
 global.choconutcount = 10;
 global.choconutava = true;
 global.haschoconut = false;
@@ -44,12 +44,52 @@ global.lollipopcount = 3;
 global.lollipopava = true;
 global.haslollipop = false;
 
+#endregion
 
-//right
+#region //left
+global.applecount = 0;
+global.appleava = false;
+global.hasapple = false;
 
-//back
+global.classiccount = 0;
+global.classicava = false;
+global.hasclassic = false;
+
+global.bukoicecandycount = 0;
+global.bukoicecandyava = false;
+global.hasbukoicecandy = false;
+
+global.bukopandanicecandycount = 0;
+global.bukopandanicecandyava = false;
+global.hasbukopandanicecandy = false;
+
+global.calamansijuicecount = 0;
+global.calamansijuiceava = false;
+global.hascalamansijuice = false;
+
+global.chocicount = 0;
+global.chociava = false;
+global.haschoci = false;
+
+global.mogmogcount = 0;
+global.mogmogava = false;
+global.hasmogmog = false;
+
+global.conerosecount = 0;
+global.coneroseava = false;
+global.hasconerose = false;
+
+#endregion
+
+#region //right
+
+
+#endregion
+
+#region //back
 global.marlocount = 0;
 global.marloava = false;
 global.hasmarlo = false;
 
-//left
+#endregion
+

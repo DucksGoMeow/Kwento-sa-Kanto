@@ -1,0 +1,1 @@
+global.room_save_data[$ room_get_name(room)][$ my_id] = true;

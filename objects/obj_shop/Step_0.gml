@@ -21,7 +21,8 @@
 		//Reduce money
 		global.money -= price;
 		
-		//front
+#region //front
+		
 		if (item == "Choco-Nut") {
 			global.choconutcount += 10;
 			global.choconutava = true;
@@ -56,15 +57,58 @@
 			global.lollipopcount += 3;
 			global.lollipopava = true;
 		}
+#endregion		
 		
-		//left
+#region //left
+
+		if (item == "3D Apple") {
+			global.applecount += 6;
+			global.appleava = true;
+		}
 		
-		//back
+		if (item == "3D Classic") {
+			global.classiccount += 6;
+			global.classicava = true;
+		}
+		
+		if (item == "Buko Ice Candy") {
+			global.bukoicecandycount += 5;
+			global.bukoicecandyava = true;
+		}
+		
+		if (item == "Buko Pandan Ice Candy") {
+			global.bukopandanicecandycount += 5;
+			global.bukopandanicecandyava = true;
+		}
+		
+		if (item == "Calamansi Juice") {
+			global.calamansijuicecount += 6;
+			global.calamansijuiceava = true;
+		}
+		
+		if (item == "Choci") {
+			global.chocicount += 6;
+			global.chociava = true;
+		}
+		
+		if (item == "MogMog") {
+			global.mogmogcount += 6;
+			global.mogmogava = true;
+		}
+
+
+
+#endregion
+		
+#region	//back
 		if (item == "Marlo") {
 			global.marlocount += 1;
 			global.marloava = true;
 		}
+#endregion
 		
-		//right
+#region	//right
+
+#endregion
 		
 	}	
