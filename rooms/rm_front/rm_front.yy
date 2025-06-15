@@ -16,7 +16,6 @@
     {"name":"inst_6BF77282","path":"rooms/rm_front/rm_front.yy",},
     {"name":"inst_BDB49E","path":"rooms/rm_front/rm_front.yy",},
     {"name":"inst_4345C4A4","path":"rooms/rm_front/rm_front.yy",},
-    {"name":"inst_1C535DAC","path":"rooms/rm_front/rm_front.yy",},
     {"name":"inst_7BF5F442","path":"rooms/rm_front/rm_front.yy",},
     {"name":"inst_758E5F15","path":"rooms/rm_front/rm_front.yy",},
     {"name":"inst_2B037E34","path":"rooms/rm_front/rm_front.yy",},
@@ -26,6 +25,7 @@
     {"name":"inst_F9B15AE","path":"rooms/rm_front/rm_front.yy",},
     {"name":"inst_630C6B3","path":"rooms/rm_front/rm_front.yy",},
     {"name":"inst_7C373EBA","path":"rooms/rm_front/rm_front.yy",},
+    {"name":"inst_1C535DAC","path":"rooms/rm_front/rm_front.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -59,7 +59,7 @@
       ],"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Overlay","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Customers_Layer","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_1C535DAC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C535DAC","objectId":{"name":"obj_customer_spawner","path":"objects/obj_customer_spawner/obj_customer_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":128.0,},
-      ],"layers":[],"name":"Customers_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+      ],"layers":[],"name":"Customers_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Background_Layer","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_BDB49E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_BDB49E","objectId":{"name":"obj_front_backgrounds","path":"objects/obj_front_backgrounds/obj_front_backgrounds.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":128.0,},
       ],"layers":[],"name":"Background_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

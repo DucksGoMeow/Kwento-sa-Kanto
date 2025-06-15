@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Delete Game",
-    "path":"folders/Objects/Room Things/Save Menu/Buttons/Delete Game.yy",
+    "path":"folders/Objects/Menu Stuff/Save Menu/Buttons/Delete Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

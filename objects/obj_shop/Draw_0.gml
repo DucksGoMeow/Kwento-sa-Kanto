@@ -53,7 +53,7 @@ if (sprite_exists(spr)) {
 }
 
 //Draw description
-draw_set_tcolor(#2d465a);
+draw_set_color(#2d465a);
 draw_set_halign(fa_center);
 draw_set_font(fnt_medium);
 	draw_set_valign(fa_middle);

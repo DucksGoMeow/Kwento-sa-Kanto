@@ -1,6 +1,5 @@
 	global.topics = {};
 	
-	scr_topics_sampleDialogues(global.topics);
 	scr_topics_extra(global.topics);
 	scr_topics_javi(global.topics);
 	scr_topics_angela(global.topics);

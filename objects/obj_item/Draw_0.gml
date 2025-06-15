@@ -1,1 +1,0 @@
-draw_sprite(spr_testItem, 0 ,x, y);

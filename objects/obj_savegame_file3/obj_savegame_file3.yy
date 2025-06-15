@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Save Game",
-    "path":"folders/Objects/Room Things/Save Menu/Buttons/Save Game.yy",
+    "path":"folders/Objects/Menu Stuff/Save Menu/Buttons/Save Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

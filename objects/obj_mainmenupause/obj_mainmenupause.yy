@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
-    "path":"folders/Objects/Room Things/Pause Menu/Buttons.yy",
+    "path":"folders/Objects/Menu Stuff/Pause Menu/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

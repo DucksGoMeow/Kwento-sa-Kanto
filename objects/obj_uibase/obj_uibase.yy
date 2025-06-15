@@ -8,8 +8,8 @@
   "name":"obj_uibase",
   "overriddenProperties":[],
   "parent":{
-    "name":"Room Things",
-    "path":"folders/Objects/Room Things.yy",
+    "name":"Menu Stuff",
+    "path":"folders/Objects/Menu Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,

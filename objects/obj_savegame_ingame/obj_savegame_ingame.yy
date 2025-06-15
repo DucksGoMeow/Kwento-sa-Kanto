@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Save Menu",
-    "path":"folders/Objects/Room Things/Save Menu.yy",
+    "path":"folders/Objects/Menu Stuff/Save Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

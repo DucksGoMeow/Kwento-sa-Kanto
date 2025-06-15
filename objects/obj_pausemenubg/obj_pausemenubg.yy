@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Pause Menu",
-    "path":"folders/Objects/Room Things/Pause Menu.yy",
+    "path":"folders/Objects/Menu Stuff/Pause Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
