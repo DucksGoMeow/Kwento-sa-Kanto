@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_toyo",
-    "path":"sprites/spr_toyo/spr_toyo.yy",
+    "name":"spr_sarap",
+    "path":"sprites/spr_sarap/spr_sarap.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_patis",
-    "path":"sprites/spr_patis/spr_patis.yy",
+    "name":"spr_toyo",
+    "path":"sprites/spr_toyo/spr_toyo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,10 +1,10 @@
-if (global.stiksstrawcount >= 4) {
-	draw_sprite(spr_strawstiks, 0 ,123, 610);
+if (global.silkconcount >= 2) {
+	draw_sprite(spr_silkcon, 0 ,1327.5, 71);
 }
-else if (global.stiksstrawcount >= 1) {
-	draw_sprite(spr_strawstiks_low, 0 ,123, 610);
+else if (global.silkconcount >= 1) {
+	draw_sprite(spr_silkcon_low, 0 ,1327.5, 71);
 }
-else if (global.stiksstrawcount == 0) {
-	draw_sprite(spr_emptystiks, 0 ,123, 610);
-	global.stiksstrawava = false;
+else if (global.silkconcount == 0) {
+	draw_sprite(spr_empty, 0 ,1327.5, 71);
+	global.silkconava = false;
 }

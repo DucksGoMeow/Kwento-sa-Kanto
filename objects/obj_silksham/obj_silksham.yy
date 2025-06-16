@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_silkcon",
-    "path":"sprites/spr_silkcon/spr_silkcon.yy",
+    "name":"spr_silksham",
+    "path":"sprites/spr_silksham/spr_silksham.yy",
   },
   "spriteMaskId":null,
   "visible":true,

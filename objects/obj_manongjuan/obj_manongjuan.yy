@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_luckyyou",
-    "path":"sprites/spr_luckyyou/spr_luckyyou.yy",
+    "name":"spr_manongjuan",
+    "path":"sprites/spr_manongjuan/spr_manongjuan.yy",
   },
   "spriteMaskId":null,
   "visible":true,

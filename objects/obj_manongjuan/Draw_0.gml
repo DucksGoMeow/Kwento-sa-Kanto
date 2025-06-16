@@ -1,10 +1,10 @@
-if (global.stiksstrawcount >= 4) {
-	draw_sprite(spr_strawstiks, 0 ,123, 610);
+if (global.manongjuancount >= 2) {
+	draw_sprite(spr_manongjuan, 0 ,379, 71);
 }
-else if (global.stiksstrawcount >= 1) {
-	draw_sprite(spr_strawstiks_low, 0 ,123, 610);
+else if (global.manongjuancount >= 1) {
+	draw_sprite(spr_manongjuan_low, 0 ,379, 71);
 }
-else if (global.stiksstrawcount == 0) {
-	draw_sprite(spr_emptystiks, 0 ,123, 610);
-	global.stiksstrawava = false;
+else if (global.manongjuancount == 0) {
+	draw_sprite(spr_empty, 0 ,379, 71);
+	global.manongjuanava = false;
 }

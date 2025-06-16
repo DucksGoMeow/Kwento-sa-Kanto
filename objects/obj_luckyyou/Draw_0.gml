@@ -1,10 +1,10 @@
-if (global.stiksstrawcount >= 4) {
-	draw_sprite(spr_strawstiks, 0 ,123, 610);
+if (global.luckyyoucount >= 2) {
+	draw_sprite(spr_luckyyou, 0 ,568, 658);
 }
-else if (global.stiksstrawcount >= 1) {
-	draw_sprite(spr_strawstiks_low, 0 ,123, 610);
+else if (global.luckyyoucount >= 1) {
+	draw_sprite(spr_luckyyou_low, 0 ,568, 658);
 }
-else if (global.stiksstrawcount == 0) {
-	draw_sprite(spr_emptystiks, 0 ,123, 610);
-	global.stiksstrawava = false;
+else if (global.luckyyoucount == 0) {
+	draw_sprite(spr_empty_box2, 0 ,568, 658);
+	global.luckyyouwava = false;
 }

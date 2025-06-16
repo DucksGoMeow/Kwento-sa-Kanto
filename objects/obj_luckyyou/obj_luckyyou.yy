@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_kotex",
-    "path":"sprites/spr_kotex/spr_kotex.yy",
+    "name":"spr_luckyyou",
+    "path":"sprites/spr_luckyyou/spr_luckyyou.yy",
   },
   "spriteMaskId":null,
   "visible":true,

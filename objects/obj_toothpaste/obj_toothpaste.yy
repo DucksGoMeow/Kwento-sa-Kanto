@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fita",
-    "path":"sprites/spr_fita/spr_fita.yy",
+    "name":"spr_happytoothpaste",
+    "path":"sprites/spr_happytoothpaste/spr_happytoothpaste.yy",
   },
   "spriteMaskId":null,
   "visible":true,

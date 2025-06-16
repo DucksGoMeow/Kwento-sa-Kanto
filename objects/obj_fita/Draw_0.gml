@@ -1,10 +1,10 @@
-if (global.stiksstrawcount >= 4) {
-	draw_sprite(spr_strawstiks, 0 ,123, 610);
+if (global.fitacount >= 2) {
+	draw_sprite(spr_fita, 0 ,12, 658);
 }
-else if (global.stiksstrawcount >= 1) {
-	draw_sprite(spr_strawstiks_low, 0 ,123, 610);
+else if (global.fitacount >= 1) {
+	draw_sprite(spr_fita_low, 0 ,12, 658);
 }
-else if (global.stiksstrawcount == 0) {
-	draw_sprite(spr_emptystiks, 0 ,123, 610);
-	global.stiksstrawava = false;
+else if (global.fitacount == 0) {
+	draw_sprite(spr_empty_container, 0 ,12, 658);
+	global.fitaava = false;
 }

@@ -49,11 +49,12 @@ if (sprite_exists(spr)) {
 	var s = 2;
 		
 	//Draw
-	draw_sprite_ext(spr, 0, _x, _y - 24, s, s, 0, -1, 1);
+	draw_sprite_ext(spr, 0, _x + 350, _y - 24, s, s, 0, -1, 1);
 }
 
 //Draw description
 draw_set_color(#2d465a);
+draw_set_font(fnt_biggest);
 draw_set_halign(fa_center);
 draw_set_font(fnt_medium);
 	draw_set_valign(fa_middle);
@@ -62,12 +63,19 @@ draw_set_font(fnt_medium);
 draw_set_halign(fa_left);
 
 //Draw price
-	draw_text(_x, _y, "Price: " + string(price));
+draw_set_font(fnt_text);
+	draw_text(_x + 330, _y - 100, "Price: " + string(price));
 	
 	draw_set_halign(fa_right);
-		draw_text(guiWidth-4, guiHeight-4, "Hit ENTER to buy");
+		draw_text(_x + 470, _y + 330, "Hit ENTER to buy");
 	draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+if (global.money <= price) {
+	draw_set_color(#2d465a);
+	draw_set_font(fnt_text);
+	draw_text(_x + 280, _y - 60, "Not Enough Funds");
+}
 
 draw_set_font(fnt_bigger);
 draw_set_color(c_black);

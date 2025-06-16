@@ -22,7 +22,7 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 		//Reduce money
 		global.money -= price;
 		
-#region //front
+#region front
 		
 		if (item == "Choco-Nut") {
 			global.choconutcount += 10;
@@ -60,7 +60,7 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 		}
 #endregion		
 		
-#region //left
+#region left
 
 		if (item == "3D Apple") {
 			global.applecount += 6;
@@ -98,8 +98,8 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 		}
 		
 		if (item == "Cone Rose") {
-			global.conevanillacount += 10;
-			global.conevanillaava = true;
+			global.conerosecount += 10;
+			global.coneroseava = true;
 		}
 		
 		if (item == "Cone Vanilla") {
@@ -133,24 +133,24 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 		}
 		
 		if (item == "Rex Litro") {
-			global.rexlitrocount += 6;
+			global.rexlitrocount += 3;
 			global.rexlitroava = true;
 		}
 		
-		if (item == "Rex") {
-			global.sprotount += 6;
+		if (item == "Sprot") {
+			global.sprotcount += 6;
 			global.sprotava = true;
 		}
 		
-		if (item == "Rex Litro") {
-			global.sprotlitrocount += 6;
+		if (item == "Sprot Litro") {
+			global.sprotlitrocount += 3;
 			global.sprotlitroava = true;
 		}
 		
-		if (item == "Ice Cream Cup") {
-			global.icecreamcupcount += 6;
-			global.icecreamcupoava = true;
-		}
+		//if (item == "Ice Cream Cup") {
+			//global.icecreamcupcount += 3;
+			//global.icecreamcupoava = true;
+		//}
 		
 		if (item == "Tiger Tagged") {
 			global.tigertaggedcount += 6;
@@ -158,7 +158,7 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 		}
 		
 		if (item == "Tube Ice") {
-			global.tubeicecount += 6;
+			global.tubeicecount += 20;
 			global.tubeiceava = true;
 		}
 		
@@ -173,29 +173,116 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 		}
 		
 		if (item == "Twin Icee Chocolate") {
-			global.twinchococount += 6;
+			global.twinchococount += 8;
 			global.twinchocoava = true;
 		}
 		
 		if (item == "Twin Icee Orange") {
-			global.twinorangecount += 6;
+			global.twinorangecount += 8;
 			global.twinorangeava = true;
 		}
 
 #endregion
 		
-#region	//back
+#region	back
+
 		if (item == "Marlo") {
 			global.marlocount += 1;
 			global.marloava = true;
 		}
 #endregion
 		
-#region	//right
+#region	right
 
+		if (item == "Boullion") {
+			global.boullioncount += 6;
+			global.boullionava = true;
+		}
+		
+		if (item == "Coco") {
+			global.cococount += 4;
+			global.cocoava = true;
+		}
+		
+		if (item == "Cooking Oil") {
+			global.cookingoilcount += 4;
+			global.cookingoilava = true;
+		}
+		
+		if (item == "Cream-co") {
+			global.creamcocount += 4;
+			global.creamcoava = true;
+		}
+		
+		if (item == "Sari Detergant") {
+			global.detergantcount += 4;
+			global.detergantava = true;
+		}
+		
+		if (item == "Fita") {
+			global.fitacount += 5;
+			global.fitaava = true;
+		}
+		
+		if (item == "Kape") {
+			global.kapecount += 4;
+			global.kapeava = true;
+		}
+		
+		if (item == "Kotex") {
+			global.kotexcount += 5;
+			global.kotexava = true;
+		}
+		
+		if (item == "Lucky You") {
+			global.luckyyoucount += 6;
+			global.luckyyouava = true;
+		}
+		
+		if (item == "Manong Juan") {
+			global.manongjuancount += 3;
+			global.manongjuanava = true;
+		}
+		
+		if (item == "Patis") {
+			global.patiscount += 5;
+			global.patisava = true;
+		}
+		
+		if (item == "Sarap Prawn Crackers") {
+			global.sarapcount += 3;
+			global.sarapava = true;
+		}
+		
+		if (item == "Silk Conditioner") {
+			global.silkconcount += 4;
+			global.silkconava = true;
+		}
+		
+		if (item == "Silk Shampoo") {
+			global.silkshamcount += 4;
+			global.silkshamava = true;
+		}
+		
+		if (item == "Skyflakes") {
+			global.skyflakescount += 8;
+			global.skyflakesava = true;
+		}
+		
+		if (item == "Suka") {
+			global.sukacount += 5;
+			global.sukaava = true;
+		}
+		
+		if (item == "Happy Toothpaste") {
+			global.toothpastecount += 5;
+			global.toothpasteava = true;
+		}
+		
+		if (item == "Toyo") {
+			global.toyocount += 5;
+			global.toyoava = true;
+		}
 #endregion
 		
 }	
-else {
-	draw_text(x, y, "You don't have enough funds for this!");
-}

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boullion",
-    "path":"sprites/spr_boullion/spr_boullion.yy",
+    "name":"spr_coco",
+    "path":"sprites/spr_coco/spr_coco.yy",
   },
   "spriteMaskId":null,
   "visible":true,

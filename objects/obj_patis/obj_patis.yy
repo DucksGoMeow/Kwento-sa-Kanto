@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_manongjuan",
-    "path":"sprites/spr_manongjuan/spr_manongjuan.yy",
+    "name":"spr_patis",
+    "path":"sprites/spr_patis/spr_patis.yy",
   },
   "spriteMaskId":null,
   "visible":true,
