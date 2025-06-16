@@ -1,4 +1,4 @@
-if (global.silkshamcount >= 4) {
+if (global.silkshamcount >= 2) {
 	draw_sprite(spr_silksham, 0 ,1327.5, 71);
 }
 else if (global.silkshamcount >= 1) {

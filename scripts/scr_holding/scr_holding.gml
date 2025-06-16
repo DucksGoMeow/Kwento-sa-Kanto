@@ -17,6 +17,8 @@ global.days_file3 = 0;
 global.reputation = 50;
 
 global.filled = 0;
+global.spent = 0;
+global.earned = 0;
 
 #region Front
 global.choconutcount = 10;
