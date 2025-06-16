@@ -214,7 +214,7 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 			global.creamcoava = true;
 		}
 		
-		if (item == "Sari Detergant") {
+		if (item == "Sari Detergent") {
 			global.detergantcount += 4;
 			global.detergantava = true;
 		}

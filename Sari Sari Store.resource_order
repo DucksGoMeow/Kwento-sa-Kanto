@@ -152,7 +152,6 @@
     {"name":"obj_sprotlitro","order":16,"path":"objects/obj_sprotlitro/obj_sprotlitro.yy",},
     {"name":"obj_stikschoco","order":5,"path":"objects/obj_stikschoco/obj_stikschoco.yy",},
     {"name":"obj_stiksstraw","order":4,"path":"objects/obj_stiksstraw/obj_stiksstraw.yy",},
-    {"name":"obj_store","order":3,"path":"objects/obj_store/obj_store.yy",},
     {"name":"obj_suka","order":11,"path":"objects/obj_suka/obj_suka.yy",},
     {"name":"obj_textbox","order":2,"path":"objects/obj_textbox/obj_textbox.yy",},
     {"name":"obj_tigertagged","order":18,"path":"objects/obj_tigertagged/obj_tigertagged.yy",},

@@ -1,4 +1,4 @@
-if (global.sarapcount >= 4) {
+if (global.sarapcount >= 2) {
 	draw_sprite(spr_sarap, 0 ,290.5, 71);
 }
 else if (global.sarapcount >= 1) {

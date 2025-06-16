@@ -1,7 +1,7 @@
 if (global.toothpastecount >= 2) {
 	draw_sprite(spr_happytoothpaste, 0 ,1325, 658);
 }
-else if (global.stiksstrawcount >= 1) {
+else if (global.toothpastecount >= 1) {
 	draw_sprite(spr_happytoothpaste_low, 0 ,1325, 658);
 }
 else if (global.toothpastecount == 0) {
