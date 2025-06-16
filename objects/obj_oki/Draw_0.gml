@@ -1,0 +1,1 @@
+draw_sprite(spr_oki_n, 0, 508, 224)

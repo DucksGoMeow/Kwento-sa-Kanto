@@ -1,1 +1,9 @@
-global.delete_javi = false;
+global.delete_avy = false;
+global.delete_bea = false;
+global.delete_elle = false;
+global.delete_ethan = false;
+global.delete_kath = false;
+global.delete_maya = false;
+global.delete_nat = false;
+global.delete_oki = false;
+global.delete_sam = false;

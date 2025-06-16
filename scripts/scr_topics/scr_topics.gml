@@ -5,3 +5,4 @@
 	scr_topics_angela(global.topics);
 	scr_topics_andoy(global.topics);
 	scr_topics_daniel(global.topics);
+	scr_topics_tutorial(global.topics);

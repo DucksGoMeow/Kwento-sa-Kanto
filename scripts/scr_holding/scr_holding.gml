@@ -20,6 +20,20 @@ global.filled = 0;
 global.spent = 0;
 global.earned = 0;
 
+global.notdoingtutorial = true;
+
+global.avy = 1;
+global.bea = 1;
+global.elle = 1;
+global.ethan = 1;
+global.kath = 1;
+global.marisa = 1;
+global.maya = 1;
+global.nat = 1;
+global.oki = 1;
+global.sam = 1;
+
+
 #region Front
 global.choconutcount = 10;
 global.choconutava = true;
