@@ -4,6 +4,7 @@ global.delete_elle = false;
 global.delete_ethan = false;
 global.delete_kath = false;
 global.delete_maya = false;
+global.delete_marisa = false;
 global.delete_nat = false;
 global.delete_oki = false;
 global.delete_sam = false;

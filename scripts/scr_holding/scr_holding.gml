@@ -33,6 +33,8 @@ global.nat = 1;
 global.oki = 1;
 global.sam = 1;
 
+global.nextitem = true;
+
 
 #region Front
 global.choconutcount = 10;

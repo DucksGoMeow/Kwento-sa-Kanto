@@ -1,5 +1,5 @@
 //Money
-global.money = 10000;
+global.money = 500;
 
 //prices
 global.item3price = 10;

@@ -6,7 +6,7 @@ items = ds_list_create();
 
 ds_list_add(items, ["3D Apple", 180, spr_apple]);
 ds_list_add(items, ["3D Classic", 180, spr_classic]);
-ds_list_add(items, ["Boullion", 34, spr_boullion]);
+//ds_list_add(items, ["Boullion", 34, spr_boullion]);
 ds_list_add(items, ["Buko Ice Candy", 48, spr_bukoicecandy]);
 ds_list_add(items, ["Buko Pandan Ice Candy", 48, spr_bukopandanicecandy]);
 ds_list_add(items, ["Calamansi Juice", 110, spr_calamansi]);
