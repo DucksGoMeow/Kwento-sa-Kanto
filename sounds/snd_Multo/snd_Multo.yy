@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_C2NaRed",
+  "%Name":"snd_Multo",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":52.59465,
-  "name":"snd_C2NaRed",
+  "duration":0.0,
+  "name":"snd_Multo",
   "parent":{
     "name":"Background Music",
     "path":"folders/Sounds/Background Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_C2NaRed.mp3",
+  "soundFile":"snd_Multo.mp3",
   "type":0,
   "volume":0.05,
 }

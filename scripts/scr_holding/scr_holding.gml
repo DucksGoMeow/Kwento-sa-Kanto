@@ -240,9 +240,10 @@ global.hastoyo = false;
 #endregion
 
 #region Back
-global.marlocount = 0;
-global.marloava = false;
-global.hasmarlo = false;
+//doesnt work sighes it has to be in here
+obj_marlo.marlocount = 0;
+obj_marlo.marloava = false;
+obj_marlo.hasmarlo = false;
 
 #endregion
 

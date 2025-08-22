@@ -1,1 +1,0 @@
-draw_sprite(spr_marisa_n, 0, 508, 224)

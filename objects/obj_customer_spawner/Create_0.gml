@@ -1,10 +1,11 @@
-global.delete_avy = false;
-global.delete_bea = false;
-global.delete_elle = false;
-global.delete_ethan = false;
-global.delete_kath = false;
-global.delete_maya = false;
-global.delete_marisa = false;
-global.delete_nat = false;
-global.delete_oki = false;
-global.delete_sam = false;
+function Customer(obj, time) constructor {
+    self.obj = obj;
+    self.time = time;
+}
+
+customers  = [
+    new Customer(obj_avy, 0),
+    new Customer(obj_avy, 0.10),
+    new Customer(obj_sam, 1.1),
+    new Customer(obj_bea, 1.65)
+];

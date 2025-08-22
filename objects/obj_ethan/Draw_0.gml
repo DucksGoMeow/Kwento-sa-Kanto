@@ -1,1 +1,0 @@
-draw_sprite(spr_ethan_n, 0, 508, 224)
