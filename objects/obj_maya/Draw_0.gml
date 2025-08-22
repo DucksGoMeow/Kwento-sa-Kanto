@@ -1,0 +1,1 @@
+draw_sprite(spr_maya_n, 0, 508, 224)

@@ -1,9 +1,3 @@
-if (room == rm_front) {
-	visible = true;
-}
-else {
-	visible = false;
-}
 /// CUSTOMIZABLE PROPERTIES
 /** Everything from here to the PRIVATE comment section is fully editable! **/
 

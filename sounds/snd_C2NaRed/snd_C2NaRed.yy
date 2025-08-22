@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":52.59465,
+  "duration":0.0,
   "name":"snd_C2NaRed",
   "parent":{
     "name":"Background Music",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_C2NaRed.mp3",
   "type":0,
-  "volume":0.05,
+  "volume":1.0,
 }

@@ -12,8 +12,7 @@ else{
   global.room_save_data[$ room_get_name(room)][$ my_id] = false;
 }
 
-marloava = false;
-hasmarlo = false;
-marlocount = 0;
+global.marloava = true;
+global.hasmarlo = false;
 
 marloempty = false;

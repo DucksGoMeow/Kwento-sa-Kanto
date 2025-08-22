@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":221.68091,
+  "duration":36.48871,
   "name":"snd_Tingin",
   "parent":{
     "name":"Background Music",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_Tingin.mp3",
   "type":0,
-  "volume":0.03,
+  "volume":1.0,
 }

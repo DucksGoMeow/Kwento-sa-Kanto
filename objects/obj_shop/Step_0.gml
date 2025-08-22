@@ -214,11 +214,11 @@ if (keyboard_check_pressed(vk_enter) && global.money >= price) {
 
 #endregion
 		
- #region back
+#region	back
 
 		if (item == "Marlo") {
-			obj_marlo.marlocount += 1;
-			obj_marlo.hasmarlo = true;
+			global.marlocount += 1;
+			global.marloava = true;
 			global.spent += 12;
 		}
 #endregion
